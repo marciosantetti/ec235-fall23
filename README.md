@@ -4,7 +4,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 *Fall 2023 - Marcio Santetti - [Economics Department](https://www.skidmore.edu/economics/), [Skidmore College](https://www.skidmore.edu/)*
 
 
-## Course Syllabus
+## Course Syllabi
 
 - [EC 235: Section 001](https://raw.githack.com/marciosantetti/ec235-fall23/main/syllabus/ec235-syllabus-f23.pdf)
 - [EC 235: Section 002](https://raw.githack.com/marciosantetti/ec235-fall23/main/syllabus/ec235-2-syllabus-f23.pdf)
