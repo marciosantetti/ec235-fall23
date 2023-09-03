@@ -1,6 +1,6 @@
 # EC 235: Macroeconomic Theory, Fall 2023
 
-Welcome to EC 235: Macroeconomic Theory!<br>
+Welcome to EC 235: **Macroeconomic Theory**!<br>
 *Fall 2023 - Marcio Santetti - [Economics Department](https://www.skidmore.edu/economics/), [Skidmore College](https://www.skidmore.edu/)*
 
 
