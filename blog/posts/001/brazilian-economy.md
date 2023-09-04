@@ -24,6 +24,6 @@ While results suggest major improvements and renewed confidence in the newly ele
 
 **Sources:**
 
-"Brazil Economy Slows, But Beats Forecasts Again In Q2." Barron's, Sep. 1st, 2023.`https://www.barrons.com/news/brazil-economy-slows-but-beats-forecasts-again-in-q2-dd2ad858`. Accessed Sep. 2, 2023.
+"Brazil Economy Slows, But Beats Forecasts Again In Q2." Barron's, Sep. 1st, 2023. https://www.barrons.com/news/brazil-economy-slows-but-beats-forecasts-again-in-q2-dd2ad858. Accessed Sep. 2, 2023.
 
-"PIB cresce 0,9% no segundo trimestre e fecha semestre com alta de 3,7%." Brazilian INstitute of Geography and Statistics' News Agency (Agencia IBGE Noticias), Sep. 1st, 2023. `https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/37774-pib-cresce-0-9-no-segundo-trimestre-e-fecha-semestre-com-alta-de-3-7`. Accessed Sep. 3, 2023.
+"PIB cresce 0,9% no segundo trimestre e fecha semestre com alta de 3,7%." Brazilian INstitute of Geography and Statistics' News Agency (Agencia IBGE Noticias), Sep. 1st, 2023. https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/37774-pib-cresce-0-9-no-segundo-trimestre-e-fecha-semestre-com-alta-de-3-7. Accessed Sep. 3, 2023.
