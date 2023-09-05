@@ -6,6 +6,8 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 ## Course Syllabi
 
+<br>
+
 - [EC 235: Section 001](https://raw.githack.com/marciosantetti/ec235-fall23/main/syllabus/ec235-syllabus-f23.pdf)
 - [EC 235: Section 002](https://raw.githack.com/marciosantetti/ec235-fall23/main/syllabus/ec235-2-syllabus-f23.pdf)
 
@@ -13,7 +15,9 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 ## Lecture notes/slides
 
-*Note*: Slides created using using [Quarto](https://quarto.org/). Assignment files generated using the `xaringan` *R* package, with templates mainly inspired by [Ed Rubin](https://github.com/edrubin)'s CSS file. <br>
+<br>
+
+*Note*: Slides created using using [Quarto](https://quarto.org/). Assignment files generated using the `xaringan` *R* package, with templates mainly inspired by [Ed Rubin](https://github.com/edrubin)'s CSS file. <br><br>
 
 **001: Basic Macroeconomic Variables**
 
@@ -21,8 +25,12 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 ## Course Blog
 
+<br>
+
 - 001: [`Brazil is consolidating a growth agenda`](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/brazilian-economy.md), by Marcio Santetti.
 
 ## Problem Sets
+
+<br>
 
 - `Problem Set 1` (coming soon)
