@@ -29,7 +29,7 @@ format:
 \vspace{.4cm}
 
 \begin{tabular}{ll|l} 
-	\textbf{When:} & \multicolumn{2}{l}{WeFr 12:20 AM--2:10 PM} \\
+	\textbf{When:} & \multicolumn{2}{l}{WeFr 12:20 PM--2:10 PM} \\
 	\textbf{Where:} & \multicolumn{2}{l}{CIS 211 (\href{https://www.skidmore.edu/directions/maps.php}{\texttt{map}})} \\
 	\textbf{Who:} & \, \faMortarBoard \,  Marcio Santetti, Ph.D. (\textit{he/him}) & \, \faEnvelopeO \, \href{mailto:msantetti@skidmore.edu}{\texttt{msantetti@skidmore.edu}} \\
 	\textbf{Office hours:} & \, \faHourglassHalf \, Mondays 12:30--2:00 PM & \, \faUniversity \, Filene 222 \\
