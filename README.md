@@ -4,6 +4,8 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 *Fall 2023 - Dr. Marcio Santetti - [Economics Department](https://www.skidmore.edu/economics/), [Skidmore College](https://www.skidmore.edu/)*
 
 
+<br>
+
 ## Course Syllabi
 
 <br>
@@ -22,6 +24,9 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 **001: Basic Macroeconomic Variables**
 
   - Slides:
+
+
+<br>
 
 ## Course Blog
 
