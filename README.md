@@ -27,6 +27,12 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 <br>
 
+[`Blog assignment description`](https://raw.githack.com/marciosantetti/ec235-fall23/main/problem-sets/blog/blog-ec235-fall23.pdf)
+
+<br>
+
+#### Posts
+
 - 001: [`Brazil is consolidating a growth agenda`](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/brazilian-economy.md), by Marcio Santetti.
 
 ## Problem Sets
