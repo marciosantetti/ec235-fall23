@@ -1,0 +1,139 @@
+---
+title: ".hi[EC 235]"
+subtitle: ".b[Blog Assignment]"
+author: ".b[Prof. Santetti] <br> Fall 2023"
+output:
+  xaringan::moon_reader:
+    css: ['default', 'metropolis', 'metropolis-fonts', 'a-css.css']
+    # self_contained: true
+    nature:
+      ratio: '8.5:11'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+layout: true
+class: clear
+---
+
+<br><br>
+
+.hi[.mono[INSTRUCTIONS]]: 
+
+
+<br>
+
+
+This Fall, the two sections of EC 235 will maintain a .b[blog] on *macroeconomic* issues/news/events.
+
+The purpose of this recurring assignment is to make us "*look outside the window*." In other words, we should apply our learning of macroeconomics to real-world events, and a great way to apply this is by developing our *critical writing*.
+
+The blog will function as follows:
+
+- Students must work in .b[pairs];
+
+- Every week, starting on week 2, the blog will have two weekly posts:
+
+  - Section `001` will post on .hi[Wednesdays];
+  
+  - Section `002` will post on .hi[Fridays].
+  
+- Posts will consist of a *short text* (min. 300, max. 400 words), and students can write about *any* subject, *any* country (or group of countries), as long as it is related to .b[macroeconomic policies/events/problems/etc].
+
+- Each 235 Section will assign .b[2] (two) students as *Associate editors*, who will be responsible for .b[reviewing] and .b[submitting] every text for the blog.
+
+- Basically, the Associate editors will:
+
+  - Organize the schedule with the classroom;
+  
+  - Check for the word count requirements and spelling;
+  
+  - Check whether the text is an original piece or copied from somewhere(one) else;
+  
+  - Submit each week's post to the instructor by email: `msantetti@skidmore.edu`
+  
+      - Section 001: every *Tuesday*, by **11:59 PM**.
+    
+      - Section 002: every *Thursday*, by **11:59 PM**.
+
+- Associate editors are .hi[not] required to write blog posts, but they may participate/help in every post.
+
+
+
+---
+class: clear
+
+<br>
+
+.hi[.mono[INSTRUCTIONS (cont.)]]: 
+
+<br>
+
+
+- The best source of inspiration is keeping up with the news (here are just some suggestions, but make sure to read .hi[reliable] sources):
+
+  - [`The New York Times`](https://www.nytimes.com/section/business/economy);<sup>1</sup>.footnote[<sup>1</sup> Skidmore students can create a free account for the NYT website. More details [`here`](https://libanswers.skidmore.edu/faq/329674).]
+  - [`Financial Times`](https://www.ft.com/);
+  - [`The Economist`](https://www.economist.com/);
+  - [`Washington Post`](https://www.washingtonpost.com/);
+  - [`The Wall Street Journal`](https://www.wsj.com/);
+  - [`VoxEU`](https://cepr.org/voxeu).
+
+
+<br>
+
+
+
+Finally, after writing your text, make sure to include your references at the bottom of the page. The way you should cite them is as follows:
+
+> Author's Last Name, First Name. "Title of Article: Subtitle if Any." Title of Website, Date of Publication, URL. Accessed Day Month Year site was visited.
+
+For example, if I used [`this online news article`](https://www.nytimes.com/2023/08/28/business/energy-environment/electric-vehicle-chargers-plugs-tesla.html) as one of my sources, I would cite it as:
+
+- Ewing, Jack. "Electric Vehicle Charging Can Be Confusing. Here’s What to Know." The New York Times, Aug. 28, 2023, `https://www.nytimes.com/2023/08/28/business/energy-environment/electric-vehicle-chargers-plugs-tesla.html`. Accessed Sep. 1, 2023.
+
+<br>
+
+The instructor will be in close contact with the *Associate editors*, and feel free to .b[ask any questions to all of us].
+
+
+
+---
+class: clear
+
+
+<br>
+
+.hi[QUICK RUBRIC]:
+
+<br>
+
+- Write *clearly*, and keep in mind that your text should be accessible to a *general public*: .hi[5] points;
+- Your text contains the name of *all* authors and all *sources* have been referenced: .hi[5] points;
+- The text contains *300&mdash;400 words* (without title, names, and references): .hi[5] points;
+- The text's main subject regards *macroeconomic* events/policies/news: .hi[5] points.
+
+<br>
+
+- Lastly, all posts will be graded *by the end of the semester*.
+
+<br><br><br>
+
+- As a Skidmore student, always recall your votes of academic integrity, and the .hi[`Honor Code`] you have abided by:
+
+
+
+
+> *"I hereby accept membership in the Skidmore College community and, with full realization of the responsibilities inherent in membership, do agree to adhere to honesty and integrity in all relationships, to be considerate of the rights of others, and to abide by the college regulations."*
+
+
+<br>
+
+
+.right[.hi[Have fun!]]
+
+
+
+
+---
+exclude:true
