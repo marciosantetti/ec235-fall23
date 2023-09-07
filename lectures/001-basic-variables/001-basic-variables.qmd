@@ -1,0 +1,427 @@
+---
+title: "Basic macroeconomic variables"
+subtitle: "EC 235 | Fall 2023"
+format:
+  revealjs: 
+    theme: [default, ms_custom.scss]
+    html-math-method: mathjax
+    footer: "EC 235 - Prof. Santetti"
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 3
+from: markdown+emoji
+---
+
+## Materials
+
+<br><br>
+
+**Required readings**:
+
+-   Blanchard, ch. 2.
+
+    - Up to Section 2&mdash;4.
+
+# The basic measures
+
+## The basic measures
+
+The study of macroeconomics revolves around a few basic variables (measures):
+
+1.  Gross Domestic Product (GDP);
+
+2.  Unemployment rate;
+
+3.  Inflation rate.
+
+. . .
+
+<br>
+
+In addition to their *own* effects in the overall performance of an economy, these 3 variables also share relevant *relationships*, namely:
+
+1.  Okun's law;
+
+2.  Phillips curve.
+
+## Gross Domestic Product
+
+<br>
+
+![](kuznets.png){fig-align="center" width="900" height="450"}
+
+## Gross Domestic Product
+
+<br>
+
+An economy's **Gross Domestic Product** (GDP) is defined as the sum (in money value) of all *final* goods and services produced in an economy in a given period.
+
+. . .
+
+-   The **most important** word in this entire definition is *final*.
+
+<br>
+
+. . .
+
+This implies that *intermediate* goods are excluded from the final calculation of GDP.
+
+. . .
+
+<br>
+
+With the basic definition in mind, the next important distinction is between *nominal* and *real* GDP.
+
+## Gross Domestic Product
+
+<br><br>
+
+| Year | Quantity Produced | Price/unit (\$) | GDP |
+|------|:-----------------:|:---------------:|:---:|
+| 2019 |        100        |     10,000      |     |
+| 2020 |        120        |     12,000      |     |
+| 2021 |        110        |     12,500      |     |
+| 2022 |        125        |     14,000      |     |
+
+## Gross Domestic Product
+
+<br>
+
+The *key* difference between real and nominal measures (GDP is only one of them) regards taking *prices* into account.
+
+. . .
+
+<br><br>
+
+Given that the real economy has more than one good/service, calculating *real* GDP requires *averaging* the total output a country produces in a given period.
+
+. . .
+
+<br>
+
+The *price* of goods and services are the natural choice for *weighting* this average output.
+
+. . .
+
+<br>
+
+[A look at the data](https://fred.stlouisfed.org/series/GDPC1)
+
+## Gross Domestic Product
+
+<br><br><br><br>
+
+Board time.
+
+## Gross Domestic Product
+
+<br>
+
+Understanding GDP in full is not possible without looking at *growth rates*.
+
+<br>
+
+. . .
+
+How to tell whether an economy has grown or not over time?
+
+. . .
+
+<br>
+
+-   The **growth rate** (%) of a variable between two periods is calculated by:
+
+<br>
+
+$$
+\text{Growth rate} = \dfrac{\text{Value in the last period} - \text{Value in the initial period}}{\text{Value in the initial period}} \times 100
+$$
+
+## Gross Domestic Product
+
+<br><br>
+
+[A second look at the data](https://fred.stlouisfed.org/series/GDPC1)
+
+# The unemployment rate
+
+## The unemployment rate
+
+<br>
+
+While GDP is the most important variable measuring an economy's *size* and *performance*, it **must not** be evaluated in isolation.
+
+. . .
+
+<br>
+
+An individual is considered **unemployed** if they are:
+
+  - not currently employed;
+  - actively looking for a job in the previous four weeks.
+  
+. . . 
+
+<br>
+
+[Official US unemployment data](https://fred.stlouisfed.org/series/UNRATE)
+
+
+## The unemployment rate
+
+<br>
+
+Furthermore, the **labor force** is the sum of *employed* and *unemployed* individuals:
+
+<br>
+
+$$
+\text{Labor force} = \text{Employed} + \text{Unemployed}
+$$
+
+. . .
+
+<br>
+
+Thus, the *unemployment rate* (*u*) is the ratio between the number of unemployed individuals (*U*) and the total labor force (*L*):
+
+<br>
+
+$$
+u = \dfrac{U}{L}
+$$
+
+## The unemployment rate
+
+<br><br>
+
+Those who are not currently employed and *not* actively looking for a job are considered *not in the labor force*.
+
+. . .
+
+<br>
+
+Lastly, the *labor force participation rate* is the ratio between the labor force and the total population of working age.
+
+
+## The unemployment rate
+
+<br><br><br><br>
+
+
+*Why* should we care about unemployment?
+
+
+# The inflation rate
+
+## The inflation rate
+
+<br>
+
+*Inflation* denotes a *sustained* increase in the general price level of an economy.
+
+. . .
+
+<br>
+
+The *inflation rate* is the growth rate of the price level over time.
+
+
+. . .
+
+<br>
+
+Conversely, if the price level *decreases* over time, the economy experiences a *deflationary* process.
+
+. . .
+
+<br>
+
+Three measures of inflation are worth investigating:
+
+  - The GDP deflator;
+  - The Consumer Price Index (CPI);
+  - The *Core* CPI.
+  
+
+## The inflation rate
+
+<br><br>
+
+The *GDP deflator* is a price index measuring the average prices of *all* final goods and services included in the economy.
+
+
+. . .
+
+<br>
+
+It is the ratio of Nominal GDP to Real GDP in a given year.
+
+. . .
+
+<br><br>
+
+[Official US data](https://fred.stlouisfed.org/series/A191RI1Q225SBEA)
+
+
+## The inflation rate
+
+<br>
+
+As the GDP deflator includes *all* goods and services produced in a given year, it includes several goods and services that us, final consumers, actually *do not care* about.
+
+. . .
+
+<br>
+
+Thus, the *Consumer Price Index* (CPI) attempts to represent the consumption basket of a typical urban consumer.
+
+. . .
+
+<br>
+
+The US Bureau of Labor Statistics (BLS) calculates the CPI, through the Consumer Expenditure Survey (CES).
+
+  - Consumer expenditures are divided into 8 groups, including *food and beverages*, *housing*, *apparel*, *transportation*, *medical care*, *recreation*, *education and communication*, and *other goods and services* (including tobacco, personal services, etc.)
+
+
+## The inflation rate
+
+<br><br>
+
+
+
+[Official US data](https://fred.stlouisfed.org/series/CPIAUCSL)
+
+. . .
+
+<br><br>
+
+The CPI's *Core* Index excludes *food* and *energy* prices, which tend to be the most *volatile* components of the CPI measure.
+
+<br>
+
+
+
+[Official US data](https://fred.stlouisfed.org/series/CPILFESL)
+
+
+## The inflation rate
+
+<br><br>
+
+
+*Why* should we care about inflation?
+
+# Relationships
+
+## Relationships
+
+<br>
+
+Aggregate output, unemployment, and inflation cannot be completely understood without their *interdependence.*
+
+. . .
+
+<br>
+
+Although we will explore some of their relationships in more detail later, it is worth spending a few minutes introducing them right now.
+
+. . .
+
+<br>
+
+First, output and unemployment can be analyzed together through *Okun's law*.
+
+- It states that, if output growth is *high*, unemployment will *decrease.*
+
+. . .
+
+Second, unemployment and inflation are related through the *Phillips curve*.
+
+- When unemployment becomes very *low*, the economy is likely to overheat, and that this will lead to *upward* pressure on inflation.
+
+
+## Relationships
+
+<br>
+
+```{r}
+#|echo: false
+
+
+library(tidyverse)
+library(ggthemes)
+library(patchwork)
+library(ggrepel)
+
+theme_ms <- function() {
+  theme_minimal(base_family = "IBM Plex Sans") +
+    theme(panel.grid.minor = element_blank(),
+          plot.background = element_rect(fill = "white", color = NA),
+          plot.title = element_text(face = "bold"),
+          strip.text = element_text(face = "bold"),
+          strip.background = element_rect(fill = "grey80", color = NA),
+          #axis.title.x = element_text(hjust = 0),
+          #axis.title.y = element_text(hjust = 1),
+          legend.title = element_text(face = "bold"))
+}
+
+theme_set(theme_ms())
+
+
+####
+
+
+dat <- read_csv("GDPC1.csv")
+cpi <- read_csv("CPILFESL.csv")
+un <- read_csv("UNRATE.csv")
+
+dat <- dat %>% 
+  add_column(cpi$CPILFESL_PC1) %>% 
+  add_column(un$UNRATE) %>% 
+  rename(gdp = GDPC1_PC1,
+         core_cpi = `cpi$CPILFESL_PC1`,
+         unrate = `un$UNRATE`,
+         date = DATE)
+
+dattx <- dat %>% 
+  mutate(ch_unrate = c(NA, diff(unrate)))
+
+
+dattx %>% 
+  ggplot(aes(x = gdp, y = ch_unrate)) +
+  geom_point(shape = 21, size = 2.2, fill = "#5c7d81", alpha = 0.5) +
+  geom_vline(xintercept = 0, linetype = 2) +
+  geom_hline(yintercept = 0, linetype = 2) +
+  labs(x = "GDP growth",
+       y = "Change in unemployment",
+       title = "Okun's law, United States: 2000Q1–2023Q2")
+
+
+
+
+###
+
+
+
+
+```
+
+
+## Relationships
+
+<br>
+
+```{r}
+
+dattx %>% 
+  ggplot(aes(x = unrate, y = core_cpi)) +
+  geom_point(shape = 21, size = 2.2, fill = "#bc202c", alpha = 0.5) +
+  geom_vline(xintercept = 3, linetype = 2) +
+  geom_hline(yintercept = 0, linetype = 2) +
+  labs(x = "Unemployment rate",
+       y = "Core inflation rate",
+       title = "Phillips curve, United States: 2000Q1–2023Q2")
+```
+
