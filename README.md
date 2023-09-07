@@ -23,7 +23,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 **001: Basic Macroeconomic Variables**
 
-  - Slides:
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/001-basic-variables/001-basic-variables.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/001-basic-variables/001-basic-variables.pdf)
 
 
 <br>
