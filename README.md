@@ -32,7 +32,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 <br>
 
-[`Blog assignment description`](https://raw.githack.com/marciosantetti/ec235-fall23/main/problem-sets/blog/blog-ec235-fall23.pdf)
+- [`Blog assignment description`](https://raw.githack.com/marciosantetti/ec235-fall23/main/problem-sets/blog/blog-ec235-fall23.pdf)
 
 
 #### Posts
