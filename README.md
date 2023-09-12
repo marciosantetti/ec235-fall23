@@ -23,7 +23,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 **001: Basic Macroeconomic Variables**
 
-  - Slides:
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/001-basic-variables/001-basic-variables.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/001-basic-variables/001-basic-variables.pdf)
 
 
 <br>
@@ -32,12 +32,17 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 <br>
 
-[`Blog assignment description`](https://raw.githack.com/marciosantetti/ec235-fall23/main/problem-sets/blog/blog-ec235-fall23.pdf)
+- [`Blog assignment description`](https://raw.githack.com/marciosantetti/ec235-fall23/main/problem-sets/blog/blog-ec235-fall23.pdf)
 
 
 #### Posts
 
-- 001: [`Brazil is consolidating a growth agenda`](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/brazilian-economy.md), by Marcio Santetti.
+
+| Title | Author(s) |
+|-------|:---------:|
+| [Brazil is consolidating a growth agenda](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/brazilian-economy.md)      |   Marcio Santetti        |
+|  |   |
+
 
 
 <br>
