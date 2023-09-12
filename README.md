@@ -21,10 +21,15 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 *Note*: Slides created using using [Quarto](https://quarto.org/). Assignment files generated using the `xaringan` *R* package, with templates mainly inspired by [Ed Rubin](https://github.com/edrubin)'s CSS file. <br><br>
 
-**001: Basic Macroeconomic Variables**
+**001: Basic macroeconomic variables**
 
   - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/001-basic-variables/001-basic-variables.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/001-basic-variables/001-basic-variables.pdf)
 
+<br>
+
+**002: The goods market**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/002-goods-market/002-goods-market.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/002-goods-market/002-goods-market.pdf)
 
 <br>
 
