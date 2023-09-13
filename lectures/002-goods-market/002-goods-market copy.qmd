@@ -1,0 +1,447 @@
+---
+title: "The goods market"
+subtitle: "EC 235 | Fall 2023"
+format:
+  revealjs: 
+    theme: [default, ms_custom.scss]
+    html-math-method: mathjax
+    footer: "EC 235 - Prof. Santetti"
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 3
+from: markdown+emoji
+---
+
+## Materials
+
+<br><br>
+
+**Required readings**:
+
+-   Blanchard, ch. 3.
+
+# The composition of GDP
+
+<br>
+
+After reviewing some of the most important macroeconomic variables---*output*, *(un)employment*, and *inflation*---, it is time to start diving into the actual *name* of this course:
+
+. . .
+
+-   *Macroeconomic Theory*!
+
+. . .
+
+<br>
+
+And we will start this process by looking at the *composition* of aggregate output (GDP).
+
+. . .
+
+<br>
+
+Never forget:
+
+$$
+\text{GDP} = C + I + G + (X - IM)
+$$
+
+
+
+## The composition of GDP
+
+<br>
+
+Again:
+
+$$
+\text{GDP} = C + I + G + (X - IM)
+$$
+
+. . .
+
+where:
+
+::: {.incremental}
+
+- *C*: aggregate consumption; 
+- *I*: aggregate investment; 
+- *G*: government expenditures; 
+- *X*: exports; 
+- *IM*: imports.
+
+
+:::
+
+## The composition of GDP
+
+<br>
+
+Important remarks:
+
+
+::: {.incremental}
+
+- *Investment* (*I*) in the macro sense is NOT the same as purchasing financial assets!
+
+- *I* also includes *changes in inventories*;
+
+- *Government spending* (*G*) does NOT include transfer payments (e.g., Medicare and Social Security);
+
+- The difference between exports and imports (*X - IM*) is also known as the *trade balance*.
+
+:::
+
+
+## The composition of GDP
+
+<br><br><br>
+
+[Reality check](https://apps.bea.gov/iTable/?reqid=19&step=3&isuri=1&1921=survey&1903=13#eyJhcHBpZCI6MTksInN0ZXBzIjpbMSwyLDNdLCJkYXRhIjpbWyJOSVBBX1RhYmxlX0xpc3QiLCI1Il0sWyJDYXRlZ29yaWVzIiwiU3VydmV5Il1dfQ==)
+
+
+
+
+
+## The demand for goods
+
+<br>
+
+
+Defining the *whole* economy's **demand for goods and services** (goods, for short) as *Z*, we can write the following *identity*:
+
+$$
+Z \equiv C + I + G + (X - IM)
+$$
+
+. . .
+
+<br>
+
+For simplicity's sake, our analysis will start off by assuming a *closed* economy (i.e., a country that does not do business with the rest of the world):
+
+. . .
+
+<br>
+
+$$
+Z \equiv C + I + G 
+$$
+
+. . .
+
+<br>
+
+Now, we can start *modeling* the (macro)economy.
+
+
+## The demand for goods
+
+<br> 
+
+Now, we can start *modeling* the (macro)economy.
+
+. . .
+
+
+But what *perspective* are we adopting to model the macroeconomy?
+
+
+. . .
+
+![](gt.jpg){fig-align="right" width="350" height="450"}
+
+
+## The demand for goods
+
+
+
+![](gt1.png){fig-align="center" width="600" height="600"}
+
+
+## The demand for goods
+
+<br>
+
+Starting off with *aggregate consumption* (*C*), it is a positive function of *disposable income* (*Y<sub>D</sub>*):
+
+$$
+C = C(Y_D) 
+$$
+
+. . .
+
+where
+
+$$
+\hspace{1cm} \dfrac{\partial{C}}{\partial{Y_D}} > 0
+$$
+
+. . .
+
+<br>
+
+Here, *C(Y<sub>D</sub>)* denotes a *behavioral equation* representing the *aggregate consumption function* of this economy.
+
+
+## The demand for goods
+
+<br>
+
+
+The *simplest* way to define the *functional form* of the consumption function is through a *linear* representation like
+
+$$
+C = c_0 + c_1Y_D
+$$
+
+. . .
+
+<br>
+
+In words:
+
+::: {.incremental}
+- Aggregate consumption is a *linear function* of disposable income;
+
+- *c<sub>0</sub>* represents *autonomous* consumption (i.e., independent of income);
+
+- *c<sub>1</sub>* is the economy's (marginal) *propensity to consume*.
+
+  - What does *c<sub>1</sub>* represent?
+
+:::
+
+
+## The demand for goods
+
+<br>
+
+![](c.png){fig-align="center" width="650" height="500"}
+
+
+## The demand for goods
+
+<br>
+
+Since *Y<sub>D</sub> = Y - T*, we can *rewrite* the consumption function as
+
+$$
+C = c_0 + c_1\underbrace{(Y - T)}_{\text{disposable income}}
+$$
+
+. . .
+
+<br>
+
+What are the effects of:
+
+  - Aggregate income (*Y*) on consumption?
+  
+  - Taxes (*T*) on consumption?
+  
+## The demand for goods
+
+<br>
+
+Moving on to aggregate investment, *I*, we will assume (for the time being) that it is given *exogenously*:
+
+<br>
+
+$$
+I = \bar{I}
+$$
+
+. . .
+
+<br><br>
+
+We will *relax* this assumption later on.
+
+
+## The demand for goods
+
+<br><br>
+
+
+Finally, government spending (*G*) denotes one component of *fiscal policy*.
+
+. . .
+
+<br><br>
+
+The other are Net Taxes (*T*).
+
+. . .
+
+<br><br>
+
+We will also assume that public spending and taxes are *exogenous.*
+
+
+## The demand for goods
+
+<br>
+
+Now we are ready to write a more *detailed* equation for aggregate demand:
+
+<br><br>
+
+$$
+Z \equiv c_0 + c_1(Y - T) + \bar{I} + G
+$$
+
+
+# Equilibrium output
+
+## Equilibrium output
+
+<br>
+
+
+*Equilibrium* in the goods market requires that production *Y* be equal to the demand for goods *Z*:
+
+$$
+Y = Z
+$$
+
+. . .
+
+<br><br>
+
+Let us explore this scenario in three ways:
+
+  1. Algebraically;
+  2. Graphically;
+  3. Verbally.
+
+
+
+# Investment = Saving
+
+
+## Investment = Saving
+
+<br>
+
+An *alternative* way of looking at the equality between production and demand is to focus on *investment* (*I*) and *saving* (*S*).
+
+. . .
+
+<br>
+
+*Private saving* (*S*) (i.e., consumers' saving) is the remainder of their disposable income after consumption:
+
+$$
+S \equiv Y_D - C
+$$
+
+. . .
+
+<br>
+
+Or, equivalently,
+
+$$
+S \equiv Y - T - C
+$$
+
+. . .
+
+## Investment = Saving
+
+<br>
+
+The previous identity concerns the *private sector*.
+
+<br>
+
+We can include the *public sector* by recalling *aggregate output* (*Y*):
+
+$$
+Y = C + I + G
+$$
+
+<br>
+
+. . .
+
+Subtract *taxes* (*T*) and *consumption* (*C*) on both sides:
+
+<br>
+
+$$
+Y - C - T = I + G - T
+$$
+
+## Investment = Saving
+
+<br>
+
+
+$$
+\underbrace{Y - C - T}_S = I + G - T
+$$
+
+<br>
+
+. . .
+
+$$
+S = I + G - T  
+$$
+
+
+<br>
+
+. . .
+
+$$
+I = S + (T - G)
+$$
+
+<br>
+
+. . .
+
+The left-hand side is the *sum* of *private* and *public saving*.
+
+
+## Investment = Saving
+
+<br>
+
+$$
+I = S + (T - G)
+$$
+
+<br>
+
+This relation states that *equilibrium* in the goods market requires that aggregate investment equals saving---the sum of private and public saving.
+
+. . .
+
+<br>
+
+In other words, *what firms want to invest must be equal to what people and the government want to save.*
+
+
+## Investment = Saving
+
+<br>
+
+Starting from:
+
+$$
+S_p = Y - T - C
+$$
+
+. . .
+
+<br>
+
+Using the definition of aggregate consumption (*C*), find an expression for aggregate saving (*S*) containing autonomous consumption (*c<sub>0</sub>*) and the *marginal propensity to save* (*1 - c<sub>1</sub>*).
+
+
+
+
