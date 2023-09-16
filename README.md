@@ -45,6 +45,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [09/15: Recent Rise in the Philippines’ Declining Inflation Rate Due to Rice](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/ilagan-mitsopoulos.md)| Diego Ilagan & Evangelos Mitsopoulos |
 | [09/13: Tracking back to reasonable inflation](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/franzoi-worob.md) | Matthew Franzoi & Oscar Worob  |
 | [09/06: Brazil is consolidating a growth agenda](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/brazilian-economy.md)      |   Marcio Santetti        |
 
