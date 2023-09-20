@@ -35,7 +35,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 **003: Financial markets**
 
-  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/003-financial-markets/003-financial-markets.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/003-financial-markets/003-financial-markets.pdf)
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/003-financial-markets/003-financial-markets%20copy.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/003-financial-markets/003-financial-markets.pdf)
 
 <br>
 
