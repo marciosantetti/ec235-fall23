@@ -1,0 +1,472 @@
+---
+title: "Financial markets"
+subtitle: "EC 235 | Fall 2023"
+format:
+  revealjs: 
+    theme: [default, ms_custom.scss]
+    html-math-method: mathjax
+    footer: "EC 235 - Prof. Santetti"
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 3
+from: markdown+emoji
+---
+
+## Materials
+
+<br><br>
+
+**Required readings**:
+
+-   Blanchard, ch. 4.
+
+
+# Prologue
+
+## Prologue
+
+<br>
+
+By studying the goods market, we have covered the *real* side of the economy. 
+
+. . .
+
+<br>
+
+However, only looking at the real side is *not sufficient* for a complete understanding of the macroeconomy.
+
+. . .
+
+<br>
+
+For instance, if households want to *save* money, it is likely that they will need a *bank* account where they may put their money.
+
+. . .
+
+<br>
+
+Furthermore, firms rarely purchase new machinery using their own funds. They usually need some *financing.*
+
+. . .
+
+<br>
+
+Thus, the *financial* side of the economy is just as important as the real.
+
+# The demand for money
+
+## The demand for money
+
+<br>
+
+First, a bit of *semantics*:
+
+<br>
+
+:::{.incremental}
+
+- *Money* ($) is the medium we use to pay for transactions.
+  - By *money*, we mean *currency* and *checkable deposits*.
+  
+
+  
+- *Income* is what people earn from working (wages and salaries), as well as any other *flow* such as *interest* and *dividends.*
+
+
+
+- *Wealth* is a *stock* variable, the value of one's financial *assets* minus financial *liabilities.*
+
+
+
+- Finally, *saving* is the portion of disposable income one *does not* spend.
+
+:::
+
+
+
+
+## The demand for money
+
+<br>
+
+Given someone's *wealth*, they may decide to keep saving money *or* to further *increase* this wealth.
+
+. . .
+
+<br>
+
+Then, they face a choice between the *two* most important financial *assets*:
+
+  - *Money*;
+  - *Bonds.*
+  
+. . .
+
+<br>
+
+The *fundamental difference* between money and bonds has to do with *two* points:
+
+
+  - Bonds *pay interest*; money does not;
+  
+  - No one can *pay for transactions* using bonds, only with money.
+  
+
+
+
+## The demand for money
+
+<br>
+
+So how can one balance *bond* ownership and *money* holding?
+
+
+. . .
+
+<br>
+
+This boils down to *two* factors:
+
+<br>
+
+:::{.incremental}
+
+  - One's *level of transactions*;
+  
+  - The *interest rate* on bonds.
+
+:::
+
+## The demand for money
+
+<br>
+
+
+
+Given this *dilemma*, we may *model* this situation mathematically.
+
+
+. . .
+
+<br>
+
+The *demand for money* (*M<sup>d</sup>*) in the whole economy is the sum of all individual demands for money by households and firms, and can be represented by:
+
+<br>
+
+$$
+M^d = PY \cdot L(i) \hspace{2cm} \dfrac{\partial M^d}{\partial{PY}}>0 \ ; \ \dfrac{\partial M^d}{\partial{i}}>0
+$$
+
+. . .
+
+<br>
+
+where *PY* is *nominal* income and *L(i)* is a *liquidity* function.
+
+## The demand for money
+
+<br>
+
+
+
+## The demand for money
+
+<br><br><br>
+
+While the demand for money increases *in proportion* to increases in nominal income (*Y*), people will hold less money in *liquid form* the higher the *interest rate* (*i*).
+
+
+
+
+
+
+
+
+# The interest rate
+
+## The interest rate
+
+<br>
+
+The equation $M^d = PY \cdot L(i)$ summarizes the *demand for money*.
+
+. . .
+
+<br>
+
+But the analysis is not complete without the *supply of money*.
+
+. . .
+
+<br>
+
+We will for now assume that the economy's *central bank* supplies an amount *M* of money to the entire economy:
+
+<br>
+
+$$
+M^s = M
+$$
+
+. . .
+
+<br>
+
+where the *s* superscript denotes *supply*.
+
+## The interest rate
+
+<br>
+
+
+As we once again have *supply* and *demand* equations, we can reach an *equilibrium* relation:
+
+$$
+M^s = M^d
+$$
+
+. . .
+
+$$
+M^s = PY \cdot L(i)
+$$
+
+
+. . .
+
+<br>
+
+The variable responsible for bringing the *equilibrium* between money demand and money supply is the *interest rate* (*i*).
+
+## The interest rate
+
+<br>
+
+![](mdms.png){fig-align="center" width="650" height="500"}
+
+
+
+
+
+## The interest rate
+
+<br>
+
+Using the previous figure as a reference, what happens when:
+
+<br>
+
+:::{.incremental}
+- The central bank increases the money supply (*M<sup>s</sup>*)?
+
+<br>
+
+- There is an increase in nominal income (*PY*)?
+
+:::
+
+
+
+# Monetary policy
+
+
+
+
+## Monetary policy
+
+
+<br>
+
+
+To model money supply, we assumed that the *central bank* decides on a quantity of money to be made available in the economy, denoted by *M<sup>s</sup>*.
+
+. . .
+
+<br>
+
+However, this process is more complicated in real life than just a decision made by a "central bank entity."
+
+<br>
+
+. . .
+
+Central banks change the supply of money in an economy by either *buying* or *selling* in bonds in financial markets.
+
+<br>
+
+. . .
+
+These actions are called *open market operations* (*OMO*).
+
+
+## Monetary policy
+
+
+<br>
+
+If the central bank wants to *decrease* the amount of money in the economy, it *sells* bonds and *removes* liquid money from circulation, as it receives in money exchange for the bonds.
+
+<br>
+
+. . .
+
+If it wants to *increase* the amount of money in the economy, it *buys* bonds and pays for them by *creating* money. 
+
+
+
+. . .
+
+Whenever either of these actions take place, the central bank is engaging in *monetary policy*.
+
+
+:::{.incremental}
+
+- A monetary policy is labeled *expansionary* when it *expands* the supply of money (*M<sup>s</sup>*) by *buying* bonds from the public.
+
+- A monetary policy is labeled *contractionary* when it *decreases* the supply of money (*M<sup>s</sup>*) by *selling* bonds to the public.
+
+:::
+
+
+## Monetary policy
+
+
+<br><br><br>
+
+Let us investigate these two situations *graphically.*
+
+
+
+## Monetary policy
+
+
+<br>
+
+Since the supply of money is changed through *bond markets*, let us investigate these further.
+
+. . .
+
+<br>
+
+How are bond *prices* related to the *interest rate* in the economy?
+
+. . .
+
+<br>
+
+If one buys a bond today and it promises to pay, say $100 in a year, the *rate of return* (i.e., the *interest rate*) on this bond is given by
+
+$$
+i = \dfrac{\$100 - P_B}{P_B}
+$$
+
+. . .
+
+where *P<sub>B</sup>* is the price of the bond.
+
+## Monetary policy
+
+
+<br>
+
+Given the previous formula, what is the interest rate (*i*) when:
+
+. . .
+
+<br>
+
+- The price of the bond (*P<sub>B</sup>*) is $95?
+
+- The price of the bond (*P<sub>B</sup>*) is $110?
+
+- The price of the bond (*P<sub>B</sup>*) is $150?
+
+. . .
+
+<br>
+
+Can we derive a *relationship* between bond *prices* and the *interest rate*?
+
+
+## Monetary policy
+
+
+<br>
+
+Now we can fully understand how Open Market Operations work.
+
+. . .
+
+<br>
+
+Suppose the central bank engages in an *expansionary* operation, *buying* bonds in the bond market and paying for them by *creating money*.
+
+. . .
+
+<br>
+
+As the central bank buys bonds, the demand for bonds *goes up*, *increasing* their price. 
+
+. . .
+
+<br>
+
+Conversely, the interest rate on bonds goes *down.*
+
+. . .
+
+<br>
+
+This way, the central bank has *increased* the money supply.
+
+
+## Monetary policy
+
+
+<br><br>
+
+This way, *monetary policy* affects *interest rates*. 
+
+. . .
+
+<br><br>
+
+By buying or selling bonds in exchange for money, the central bank affects the price of bonds, and by implication, the interest rate on bonds.
+
+
+
+# Adding financial intermediaries
+
+
+## Adding financial intermediaries
+
+
+<br>
+
+In the *real world*, money includes not only currency but also *checkable deposits*.
+
+. . .
+
+<br>
+
+And checkable deposits are supplied not by the central bank but by *(private) banks*.
+
+. . .
+
+<br>
+
+Modern economies are characterized by the existence of many types of *financial intermediaries*---institutions that receive funds from people and firms and use these funds to *buy* financial assets or to make *loans* to other people and firms. 
+
+
+## Adding financial intermediaries
+
+
+<br><br><br>
+
+![](banks.png){fig-align="center" width="450" height="200"}
+
+
+
+
+
