@@ -155,7 +155,7 @@ The *demand for money* (*M<sup>d</sup>*) in the whole economy is the sum of all 
 <br>
 
 $$
-M^d = PY \cdot L(i) \hspace{2cm} \dfrac{\partial M^d}{\partial{PY}}>0 \ ; \ \dfrac{\partial M^d}{\partial{i}}>0
+M^d = PY \cdot L(i) \hspace{2cm} \dfrac{\partial M^d}{\partial{PY}}>0 \ ; \ \dfrac{\partial M^d}{\partial{i}}<0
 $$
 
 . . .
