@@ -51,6 +51,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [09/22: Even the Strong may Fall: A drawback in Germany’s Economic Growth](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/minh-thein.md) | Vu Duc Minh & Brendan Thein |
 | [09/20: Turkey Combatting High Inflation](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/agarwal-mabuza.md) | Aditya Agarwal & Siyabonga Mabuza |
 | [09/15: Recent Rise in the Philippines’ Declining Inflation Rate Due to Rice](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/ilagan-mitsopoulos.md)| Diego Ilagan & Evangelos Mitsopoulos |
 | [09/13: Tracking back to reasonable inflation](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/franzoi-worob.md) | Matthew Franzoi & Oscar Worob  |
