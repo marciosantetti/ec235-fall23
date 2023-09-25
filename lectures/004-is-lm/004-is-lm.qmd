@@ -1,0 +1,287 @@
+---
+title: "The IS-LM model"
+subtitle: "EC 235 | Fall 2023"
+format:
+  revealjs: 
+    theme: [default, ms_custom.scss]
+    html-math-method: mathjax
+    footer: "EC 235 - Prof. Santetti"
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 3
+from: markdown+emoji
+---
+
+## Materials
+
+<br><br>
+
+**Required readings**:
+
+-   Blanchard, ch. 5.
+
+
+# Prologue
+
+## Prologue
+
+<br>
+
+The previous two chapters introduced the *goods* and *financial* markets, respectively.
+
+. . .
+
+<br>
+
+In the first, we explored the determinants of *aggregate demand* (*Z*), and how equilibrium can be reached when production (*Y*) is met by *aggregate expenditures*.
+
+. . .
+
+<br>
+
+
+In the second, we saw that the *interest rate* plays a key role in the demand for and supply of *money*, and how equilibrium may be reached through *monetary policy*.
+
+
+. . .
+
+<br>
+
+However, just looking at these two markets on their own is *not* sufficient to fully understand the macroeconomy.
+
+## Prologue
+
+<br><br><br><br>
+
+Now we turn to the *IS-LM* model, which combines the *goods* and *money* markets for a more comprehensive macroeconomic analysis.
+
+# The IS relation
+
+## The IS relation
+
+<br>
+
+Recall *aggregate demand* in a *closed* economy:
+
+<br>
+
+$$
+Z = C + \bar{I} + G
+$$
+
+. . .
+
+<br>
+
+And we assumed that *C* is a function of disposable income (*Y<sub>D</sub>*), and *I* and *G* were *exogenously* determined.
+
+<br>
+
+. . .
+
+Moving on, we will *abandon* the assumption that aggregate investment (*I*) is given.
+
+## The IS relation
+
+<br>
+
+Aggregate investment is in fact *far from constant* and depends primarily on two factors:
+
+<br>
+
+
+
+:::{.incremental}
+1. The level of *sales*;
+
+2. The *interest rate*.
+
+:::
+
+. . .
+
+<br>
+
+First, firms facing increases in *sales* will need to *invest* further in order to increase production.
+
+. . .
+
+<br>
+
+Second, firms almost *never* have the entirety of funds to finance themselves to make such investments. Thus, they need to *borrow* from the money market.
+
+## The IS relation
+
+<br><br>
+
+Given this motivation, we may write the *investment function* as:
+
+<br>
+
+$$
+I = I(Y, i) \hspace{1cm} \dfrac{\partial I}{\partial Y} > 0 \ \ ;  \ \ \dfrac{\partial I}{\partial i} < 0
+$$
+
+<br>
+
+. . .
+
+In words, an increase in output (*Y*) *increases* investment; and an increase in the interest rate (*i*) *decreases* investment.
+
+
+## The IS relation
+
+<br><br>
+
+Now we can rewrite the aggregate demand function *Z* as:
+
+<br>
+
+$$
+Z = C(Y_D) + I(Y,i) + G
+$$
+
+. . .
+
+<br>
+
+And we know that equilibrium in the goods market (*Y = Z*) also implies that *investment equals savings*:
+
+<br>
+
+$$
+I = S
+$$
+
+## The IS relation
+
+<br><br>
+
+The name *IS* comes from *Investment-Saving*.
+
+. . .
+
+<br><br>
+
+Thus, let us use this last equilibrium condition to derive the IS curve.
+
+. . .
+
+<br><br>
+
+Intuitively, we would like to find *all combinations* of the interest rate (*i*) and output (*Y*) that bring *equilibrium* to the goods market.
+
+
+
+## The IS relation
+
+<br><br>
+
+
+What factors will affect the *slope* of the the IS curve?
+
+. . .
+
+<br><br><br>
+
+What factors will *shift* the IS curve?
+
+
+# The LM relation
+
+## The LM relation
+
+
+<br>
+
+Now, we turn to the *financial* market.
+
+. . .
+
+<br>
+
+We all know that the demand for money (*M<sup>D</sup>*) depends on income (*Y*) and on the interest rate (*i*):
+
+<br>
+
+$$
+M^D = PY \cdot L(i)
+$$
+
+<br>
+
+. . .
+
+And equilibrium in the money market is reached when the supply of money (*M<sup>S</sup>*) is met by money demand:
+
+
+
+$$
+M^D = M^S
+$$
+
+## The LM relation
+
+
+<br>
+
+The name *LM* comes from *Liquidity-Money*.
+
+<br><br>
+
+Thus, let us use this last equilibrium condition to derive the LM curve.
+
+. . .
+
+<br><br>
+
+Intuitively, we would like to find *all combinations* of the interest rate (*i*) and output (*Y*) that bring *equilibrium* to the money market.
+
+## The LM relation
+
+
+<br><br>
+
+
+What factors will affect the *slope* of the the LM curve?
+
+. . .
+
+<br><br><br>
+
+What factors will *shift* the LM curve?
+
+
+# The IS-LM model
+
+## The IS-LM model
+
+<br>
+
+
+![](islm.png){fig-align="center" width="650" height="500"}
+
+## The IS-LM model
+
+<br><br>
+
+The *upward-sloping* LM schedule shows the points of equilibrium for the *money* market.
+
+. . .
+
+<br>
+
+The *downward- sloping* IS schedule shows the points of equilibrium for the *goods* market.
+
+. . .
+
+<br>
+
+The point of *intersection* between the two schedules is the (only) point of general equilibrium for the two markets.
+
+
+## The IS-LM model
+
+<br><br><br>
+
+Let us now explore this further with an *example.*
