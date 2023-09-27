@@ -39,6 +39,12 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 <br>
 
+**004: The IS-LM model: Introduction**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/004-is-lm/004-is-lm.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/004-is-lm/004-is-lm.pdf)
+
+<br>
+
 ## Course Blog
 
 <br>
