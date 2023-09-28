@@ -57,6 +57,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [09/29: Understanding the Consumer Price Index and Inflation’s Political Impact](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/mahn-moreta.md) | Charlotte Mahn & Randy Moreta |
 | [09/27: Rising Interest Rates and Falling Inflation in Eurozone and US](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/taylor-penfold.md) | Theo Taylor & Ben Penfold |
 | [09/22: Even the Strong may Fall: A drawback in Germany’s Economic Growth](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/minh-thein.md) | Vu Duc Minh & Brendan Thein |
 | [09/20: Turkey Combatting High Inflation](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/agarwal-mabuza.md) | Aditya Agarwal & Siyabonga Mabuza |
