@@ -15,6 +15,14 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 <br>
 
+## Evaluations Schedule
+
+<br>
+
+- 10/13: **Mini-test 1**
+
+<br>
+
 ## Lecture notes/slides
 
 <br>
