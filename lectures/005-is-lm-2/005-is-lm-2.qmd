@@ -1,0 +1,118 @@
+---
+title: "IS-LM: Further analysis"
+subtitle: "EC 235 | Fall 2023"
+format:
+  revealjs: 
+    theme: [default, ms_custom.scss]
+    html-math-method: mathjax
+    footer: "EC 235 - Prof. Santetti"
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 3
+from: markdown+emoji
+---
+
+## Materials
+
+<br><br>
+
+**Required readings**:
+
+-   Blanchard, ch. 5.
+
+
+# Prologue
+
+## Prologue
+
+<br><br><br>
+
+After setting up the *IS* and *LM* schedules and their *interaction*, we move on to analyzing the effects of *economic policy* on the *goods* and *money* markets.
+
+
+# Monetary influences
+
+## Monetary influences
+
+<br>
+
+We begin by looking at the *money market*.
+
+. . .
+
+<br>
+
+More specifically, how does *monetary policy* affect the level of *output* (income) and the *interest rate*?
+
+
+. . .
+
+<br><br>
+
+Let us consider an increase in the *money supply (M<sup>S</sup>)*.
+
+
+
+# Real influences
+
+## Real influences
+
+
+<br>
+
+Now, let us look at the *goods market*.
+
+
+. . .
+
+<br>
+
+More specifically, how does *fiscal policy* affect the level of *output* (income) and the *interest rate*?
+
+. . .
+
+<br><br>
+
+Let us consider two cases:
+
+<br>
+
+:::{.incremental}
+1. An increase in *Government expenditures* (*&Delta;G > 0*);
+
+2. An increase in *Net Taxes* (*&Delta;T > 0*).
+:::
+
+
+# Policy effectiveness
+
+
+## Policy effectiveness
+
+
+<br>
+
+How *effective* can fiscal and monetary policies be?
+
+. . .
+
+<br>
+
+In other words, what will be the *size* of the effects on *income* (*Y*) and on the interest rate (*i*) of a given change in the policy variable?
+
+. . .
+
+<br><br>
+
+In short, the effectiveness of each policy will depend on the *slopes* of the *IS* and *LM* schedules.
+
+
+## Policy effectiveness
+
+<br>
+
+In summary...
+
+<br>
+
+![](policy.png){fig-align="center" width="700" height="400"}
