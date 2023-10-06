@@ -71,7 +71,8 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
-| [10/04: Navigating Uncertain Market Conditions](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/herbinger-schnitzer.md) | By Devin Herbinger & Danny Schnitzer |
+| [10/06: How China’s Real Estate Issues Hurts the Entire Economy](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/despins.md) | Marah Frese-Despins | 
+| [10/04: Navigating Uncertain Market Conditions](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/herbinger-schnitzer.md) | Devin Herbinger & Danny Schnitzer |
 | [09/29: Understanding the Consumer Price Index and Inflation’s Political Impact](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/mahn-moreta.md) | Charlotte Mahn & Randy Moreta |
 | [09/27: Rising Interest Rates and Falling Inflation in Eurozone and US](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/taylor-penfold.md) | Theo Taylor & Ben Penfold |
 | [09/22: Even the Strong may Fall: A drawback in Germany’s Economic Growth](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/minh-thein.md) | Vu Duc Minh & Brendan Thein |
