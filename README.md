@@ -71,6 +71,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [10/11: United Nations Economic Situation and Prospects](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/slager-kachanovsy.md) | Ethan Slager & Leo Kachanovsky |
 | [10/06: How China’s Real Estate Issues Hurts the Entire Economy](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/despins.md) | Marah Frese-Despins | 
 | [10/04: Navigating Uncertain Market Conditions](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/herbinger-schnitzer.md) | Devin Herbinger & Danny Schnitzer |
 | [09/29: Understanding the Consumer Price Index and Inflation’s Political Impact](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/mahn-moreta.md) | Charlotte Mahn & Randy Moreta |
