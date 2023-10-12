@@ -1,0 +1,294 @@
+---
+title: "The labor market"
+subtitle: "EC 235 | Fall 2023"
+format:
+  revealjs: 
+    theme: [default, ms_custom.scss]
+    html-math-method: mathjax
+    footer: "EC 235 - Prof. Santetti"
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 3
+from: markdown+emoji
+---
+
+## Materials
+
+<br><br>
+
+**Required readings**:
+
+-   Blanchard, ch. 7.
+
+
+# Prologue
+
+## Prologue
+
+<br>
+
+So far, our analysis of macroeconomic equilibrium have *ignored* what happens to *wages, employment*, and *prices.*
+
+. . .
+
+<br>
+
+Recall that, for instance, our IS-LM model may generate higher *output* (*Y*) in a variety of ways.
+
+<br>
+
+. . .
+
+But, in order to produce more goods and services, *more people* must be *employed*, and this affects the level of *wages* and *income distribution* in the economy.
+
+. . .
+
+<br>
+
+Thus, now we add the *labor market* into our study of the macroeconomy.
+
+## Prologue
+
+<br>
+
+<br><br>
+
+[A look at the recent numbers](https://fred.stlouisfed.org/series/UNRATE)
+
+. . .
+
+<br><br>
+
+[Labor Force Statistics from the Current Population Survey (CPS)](https://www.bls.gov/cps/)
+
+
+
+## Prologue
+
+
+
+![](goldin.png){fig-align="center" width="700" height="600"}
+
+## Prologue
+
+
+![](powell.png){fig-align="center" width="550" height="580"}
+
+
+## Prologue
+
+
+
+![](strike.png){fig-align="center" width="550" height="600"}
+
+
+# Wage- and price-setting
+
+## Wage- and price-setting
+
+<br>
+
+We can start *modeling* wage determination through the following equation:
+
+<br>
+
+$$
+W = P^e \cdot F(u,z)
+$$
+
+<br>
+
+where:
+
+:::{.incremental}
+- *W*: aggregate *nominal* wage;
+
+- *P<sup>e</sup>*: *expected* price level;
+
+- *u*: the *unemployment rate*;
+
+- *z*: a variable catching *all other factors* that may determine wages.
+
+
+:::
+
+
+## Wage- and price-setting
+
+<br><br><br>
+
+Why should workers bother about the *(expected) price level* when negotiating wages?
+
+
+
+
+
+## Wage- and price-setting
+
+<br>
+
+Now, let us focus on *prices*.
+
+. . .
+
+<br>
+
+As a first *simplifying assumption*, we will assume that expectations regarding the price level as as *accurate* as possible, so *P<sup>e</sup> = P*.
+
+. . .
+
+<br>
+
+Then, we have:
+
+<br>
+
+$$
+W = P \cdot F(u,z)
+$$
+
+$$
+\dfrac{W}{P} = F(u,z)
+$$
+
+
+## Wage- and price-setting
+
+<br>
+
+Then, *firms* *set* the price for their product based on the *costs* they face.
+
+. . . 
+
+For the time being, we will assume a simple production function with only one factor of production (i.e., only one input):
+
+<br>
+
+$$
+Y = A \cdot N
+$$
+
+<br>
+
+where 
+
+:::{.incremental}
+- *Y*: output;
+
+- *A*: labor productivity;
+
+- *N*: number of workers (employment).
+
+:::
+
+
+
+## Wage- and price-setting
+
+<br>
+
+Furthermore, we will consider a scenario of *imperfect competition*.
+
+. . .
+
+<br>
+
+This means that firms can set a *markup rate (m)* on their final price:
+
+. . .
+
+<br>
+
+$$
+P = (1 + m)W
+$$
+
+<br>
+
+. . .
+
+And we can get to:
+
+
+$$
+\dfrac{W}{P} = \dfrac{1}{(1+m)}
+$$
+
+## Wage- and price-setting
+
+<br><br>
+
+Again:
+
+$$
+\dfrac{W}{P} = \dfrac{1}{(1+m)}
+$$
+
+. . .
+
+<br><br>
+
+What is the relation between the *real wage* and the *markup rate*?
+
+
+
+# Equilibrium
+
+
+## Equilibrium
+
+
+<br>
+
+*Equilibrium* in the labor market requires that the real wage chosen in *wage setting* be equal to the real wage implied by *price setting*.
+
+. . .
+
+<br>
+
+In mathematical terms:
+
+$$
+F(u_n,z) = \dfrac{1}{(1+m)}
+$$
+
+
+. . .
+
+<br>
+
+where *u<sub>n</sub>* is the *"natural" rate of unemployment*.
+
+## Equilibrium
+
+
+<br><br><br>
+
+The equilibrium rate of unemployment (*u<sub>n</sub>*) is then a function of institutional factors *z* and of the markup rate *m*.
+
+
+## Equilibrium
+
+
+<br>
+
+![](eq.png){fig-align="center" width="630" height="470"}
+
+
+## Equilibrium
+
+
+<br><br>
+
+
+Consider the following:
+
+<br><br>
+
+
+:::{.incremental}
+- What happens to the labor market equilibrium when, for instance, *unemployment benefits* increase?
+
+
+- A weaker enforcement of existing *antitrust* legislation?
+:::
