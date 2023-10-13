@@ -59,6 +59,9 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
   - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/005-is-lm-2/005-is-lm-2.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/005-is-lm-2/005-is-lm-2.pdf)
 
+
+<br>
+
 **006: The labor market**
 
   - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/006-labor-market/006-labor-market.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/006-labor-market/006-labor-market.pdf)
