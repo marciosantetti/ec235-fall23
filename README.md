@@ -19,7 +19,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 <br>
 
-- 10/13: **Mini-test 1**
+- ~~10/13: **Mini-test 1**~~
 - 10/27: **Mini-test 2**
 - 11/10: **Midterm exam**
 
