@@ -101,7 +101,7 @@ Graded assignments will consist of the following:
 
 - ***Blog posts*** (15%):  We will maintain a *blog* throughout the semester, and each student group is required to submit *at least one* post. More information about this assignment will be given in a separate document.
 
-- ***Midterm exam*** (25%, date TBD): The Midterm exam will consist of *essay-type* and *numerical/algebraic* problems. It will comprehend all course topics up to the IS-LM model lectures. We will discuss its date as we go. The exam is closed-book, and students may have a 1/2 sheet of paper with handwritten notes.
+- ***Midterm exam*** (25%, 11/10): The Midterm exam will consist of *essay-type* and *numerical/algebraic* problems. It will comprehend all course topics up to the IS-LM model lectures. We will discuss its date as we go. The exam is closed-book, and students may have a 1/2 sheet of paper with handwritten notes.
 
 - ***Final exam*** (40%, see date below): The final exam will be comprehensive, with more emphasis placed on contents studied after the Midterm exam. The Final exam is also closed-book, and students may have a 1/2 sheet of paper with handwritten notes.
 
@@ -139,6 +139,7 @@ Unsatisfactory performance                      F (0--60\%)
 * **Sep 6**: Classes begin
 * **Sep 11**: "Add" deadline
 * **Oct 9**: Study day
+* **Nov 10**: Midterm exam
 * **Nov 16**: Course withdrawal deadline
 * **Nov 22--26**: Thanksgiving vacation
 * **Dec 8**: Last day of classes
