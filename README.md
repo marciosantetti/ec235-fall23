@@ -19,9 +19,9 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 <br>
 
-- 10/13: **Mini-test 1**
-- 10/27: Mini-test 2?
-- 11/10: Midterm exam?
+- ~~10/13: **Mini-test 1**~~
+- 10/27: **Mini-test 2**
+- 11/10: **Midterm exam**
 
 <br>
 
@@ -59,6 +59,13 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
   - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/005-is-lm-2/005-is-lm-2.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/005-is-lm-2/005-is-lm-2.pdf)
 
+
+<br>
+
+**006: The labor market**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/006-labor-market/006-labor-market.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/006-labor-market/006-labor-market.pdf)
+
 <br>
 
 ## Course Blog
@@ -73,6 +80,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [10/13: Investors think the Fed might be done raising Interest rates](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/tevie.md) | Ryan Tevie |
 | [10/11: United Nations Economic Situation and Prospects](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/slager-kachanovsy.md) | Ethan Slager & Leo Kachanovsky |
 | [10/06: How China’s Real Estate Issues Hurts the Entire Economy](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/despins.md) | Marah Frese-Despins | 
 | [10/04: Navigating Uncertain Market Conditions](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/herbinger-schnitzer.md) | Devin Herbinger & Danny Schnitzer |
@@ -94,3 +102,4 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 <br>
 
 - [`Problem Set 1`](https://raw.githack.com/marciosantetti/ec235-fall23/main/problem-sets/ps1/ps1-ec235-fall23.pdf)
+- [`Problem Set 2`](https://raw.githack.com/marciosantetti/ec235-fall23/main/problem-sets/ps2/ps2-ec235-fall23.pdf)
