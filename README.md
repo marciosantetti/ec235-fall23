@@ -80,6 +80,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [10/18: Rising debt continues, who’s going to pay the bills?](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/shafritz-leangphibul.md) | Justin Shafritz & Garn Leangphibul |
 | [10/13: Investors think the Fed might be done raising Interest rates](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/tevie.md) | Ryan Tevie |
 | [10/11: United Nations Economic Situation and Prospects](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/slager-kachanovsy.md) | Ethan Slager & Leo Kachanovsky |
 | [10/06: How China’s Real Estate Issues Hurts the Entire Economy](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/despins.md) | Marah Frese-Despins | 
