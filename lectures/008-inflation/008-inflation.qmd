@@ -1,0 +1,529 @@
+---
+title: "Unemployment meets inflation"
+subtitle: "EC 235 | Fall 2023"
+format:
+  revealjs: 
+    theme: [default, ms_custom.scss]
+    html-math-method: mathjax
+    footer: "EC 235 - Prof. Santetti"
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 3
+from: markdown+emoji
+---
+
+## Materials
+
+<br><br>
+
+**Required readings**:
+
+-   Blanchard, ch. 8.
+
+
+# Prologue
+
+## Prologue
+
+<br>
+
+After studying the labor market and how it influences wage- and price-setting behavior, it is time to connect (un)employment and *inflation*.
+
+. . .
+
+<br>
+
+Whenever the price level rises in a *consistent* and *generalized* way, we may say that an *inflationary* process is taking place.
+
+. . .
+
+<br><br>
+
+And one of the ways in which we can study this phenomenon is through what happens in the *labor market*.
+
+
+# Inflation and unemployment
+
+
+## Inflation and unemployment
+
+<br>
+
+Recall the *wage-setting* relation:
+
+<br>
+
+$$
+W = P^e \cdot F(u,z)
+$$
+
+. . .
+
+<br>
+
+So far, we have not explicitly assumed a form to the function *F*.
+
+. . . 
+
+<br>
+
+Let us start by a *linear* form:
+
+<br>
+
+$$
+F(u,z) = 1 - \alpha u + z
+$$
+
+
+## Inflation and unemployment
+
+<br>
+
+$$
+F(u,z) = 1 - \alpha u + z
+$$
+
+<br>
+
+where *&alpha;* captures the *strength* of the effect of unemployment on wages.
+
+. . .
+
+<br>
+
+Then, the price-setting relation becomes:
+
+<br>
+
+$$
+W = P^e (1 - \alpha u + z)
+$$
+
+
+## Inflation and unemployment
+
+<br>
+
+And recall the *price-setting* relation:
+
+<br>
+
+$$
+P = (1+m)W
+$$
+
+. . .
+
+<br>
+
+Using the wage- and price-setting equations together:
+
+<br>
+
+$$
+P = P^e(1+m)(1 - \alpha u + z)
+$$
+
+. . .
+
+<br>
+
+... And this expression gives us a relation between the *price level*, the *expected price level*, and the *unemployment rate*.
+
+## Inflation and unemployment
+
+<br>
+
+In case we want to replace the price level by the *inflation rate*, *&pi;*, and the *expected* inflation rate, *&pi;<sup>e</sup>*, we end up with
+
+<br>
+
+. . .
+
+$$
+\pi = \pi^e + (m+z) - \alpha u
+$$
+
+<br>
+
+. . .
+
+What are the effects of:
+
+:::{.incremental}
+- A rise in the markup rate, *m*?
+
+- An increase in expected inflation, *&pi;<sup>e</sup>*?
+
+- A decrease in the unemployment rate, *u*?
+
+:::
+
+# The Phillips curve
+
+## The Phillips curve
+
+<br><br>
+
+For a better understanding of what is to come, it will be convenient to include *time indexes* in our previous inflation equation:
+
+<br>
+
+$$
+\pi_t = \pi_t^e + (m+z) - \alpha u_t
+$$
+
+
+. . .
+
+<br><br>
+
+where the subscript *t* refers to the *present* period; *t-1* to the previous period, and so on.
+
+## The Phillips curve
+
+<br>
+
+In 1958, A. W. Phillips (1914--1975) empirically found that low rates of unemployment were associated with high rates of inflation, and high unemployment with low inflation. 
+
+
+
+
+
+![](phillips.png){fig-align="right" width="300" height="300"}
+
+. . .
+
+This relationship has since been referred to as the *Phillips curve*.
+
+
+## The Phillips curve
+
+<br>
+
+[Link to original paper](http://pombo.free.fr/phillips1958.pdf)
+
+
+
+![](old_pc.png){fig-align="center" width="650" height="450"}
+
+
+## The Phillips curve
+
+<br>
+
+From the Phillips curve equation:
+
+<br>
+
+$$
+\pi_t = \pi_t^e + (m+z) - \alpha u_t
+$$
+
+. . .
+
+<br>
+
+Assume, first, a *stable* scenario, with no persistent change in the price level.
+
+. . .
+
+<br>
+
+This can be represented by *&pi;<sup>e</sup> = 0*.
+
+. . .
+
+<br>
+
+Then, it becomes
+
+$$
+\pi_t = (m+z) - \alpha u_t
+$$
+
+
+
+## The Phillips curve
+
+<br>
+
+```{r}
+#|echo: false
+
+
+library(tidyverse)
+library(ggthemes)
+library(patchwork)
+library(ggrepel)
+
+theme_ms <- function() {
+  theme_minimal(base_family = "IBM Plex Sans") +
+    theme(panel.grid.minor = element_blank(),
+          plot.background = element_rect(fill = "white", color = NA),
+          plot.title = element_text(face = "bold"),
+          strip.text = element_text(face = "bold"),
+          strip.background = element_rect(fill = "grey80", color = NA),
+          #axis.title.x = element_text(hjust = 0),
+          #axis.title.y = element_text(hjust = 1),
+          legend.title = element_text(face = "bold"))
+}
+
+theme_set(theme_ms())
+
+
+####
+
+cpi <- read_csv("CPIAUCSL.csv")
+unrate <- read_csv("unrate.csv")
+
+
+cpi <- cpi %>% 
+  filter(DATE > "1947-01-01") %>% 
+  mutate(CPIAUCSL= as.double(CPIAUCSL_PC1))
+
+unrate <- unrate %>% 
+  select(UNRATE) %>% 
+  mutate(UNRATE = as.double(UNRATE))
+
+
+cpi %>% 
+  add_column(unrate) %>% 
+  filter(DATE >= "1961-01-01" & DATE <= "1969-01-01") %>% 
+  mutate(DATE = lubridate::year(DATE)) %>% 
+  ggplot(aes(x = UNRATE, y = CPIAUCSL, label = DATE)) +
+  geom_point() +
+  geom_text_repel(family = "IBM Plex Sans") +
+  expand_limits(x = c(3, 7),
+                y = c(0, 6)) +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 3) +
+  labs(x = "Unemployment rate (%)",
+       y = "Inflation rate (%)",
+       title = "U.S. Phillips curve, 1961–1969")
+
+
+```
+
+
+## The Phillips curve
+
+<br>
+
+But then...
+
+
+```{r}
+#|echo: false
+
+
+cpi %>% 
+  add_column(unrate) %>% 
+  filter(DATE >= "1970-01-01" & DATE <= "1995-01-01") %>% 
+  mutate(DATE = lubridate::year(DATE)) %>% 
+  ggplot(aes(x = UNRATE, y = CPIAUCSL, label = DATE)) +
+  geom_point() +
+  geom_text_repel(family = "IBM Plex Sans") +
+  expand_limits(x = c(4, 10),
+                y = c(0, 14)) +
+  geom_hline(yintercept = 0) +
+  geom_vline(xintercept = 4) +
+  labs(x = "Unemployment rate (%)",
+       y = "Inflation rate (%)",
+       title = "U.S. Phillips curve, 1970–1995")
+
+
+
+
+```
+
+## The Phillips curve
+
+<br>
+
+
+Why did the original Phillips curve change?
+
+. . .
+
+<br>
+
+
+We need to bring back *&pi;<sup>e</sup>*.
+
+
+. . .
+
+<br><br>
+
+Now,
+
+$$
+\pi_t^e = (1-\theta)\bar{\pi} + \theta \pi_{t-1}
+$$
+
+
+## The Phillips curve
+
+<br>
+
+When *&theta;* = 1, we have:
+
+<br>
+
+$$
+\Delta \pi_t = (m + z) - \alpha u_t
+$$
+
+<br>
+
+where *&Delta;&pi;<sub>t</sub> = &pi;<sub>t</sub> - &pi;<sub>t-1</sub>* is the *change in the inflation rate*.
+
+. . .
+
+<br>
+
+
+
+*High* unemployment leads to *decreasing* inflation; *low* unemployment leads to *increasing* inflation.
+
+. . .
+
+<br>
+
+This version is known as the *accelerationist* Phillips curve.
+
+
+## The Phillips curve
+
+<br>
+
+```{r}
+#|echo: false
+
+
+cpi %>% 
+  add_column(unrate) %>% 
+  filter(DATE >= "1970-01-01" & DATE <= "1995-01-01") %>% 
+  mutate(DATE = lubridate::year(DATE)) %>% 
+  mutate(d_cpi = c(NA, diff(CPIAUCSL))) %>% 
+  ggplot(aes(x = UNRATE, y = d_cpi, label = DATE)) +
+  geom_point() +
+  geom_text_repel(family = "IBM Plex Sans") +
+  geom_smooth(method = "lm", se = F, color = "red") +
+  expand_limits(x = c(4, 10),
+                y = c(-5, 6)) +
+  geom_hline(yintercept = -5) +
+  geom_vline(xintercept = 4) +
+  geom_hline(yintercept = 0) +
+  labs(x = "Unemployment rate (%)",
+       y = "Change in inflation rate (p.p.)",
+       title = "U.S. Accelerationist Phillips curve, 1970–1995")
+
+
+
+
+```
+
+
+## The Phillips curve
+
+<br>
+
+```{r}
+#|echo: false
+
+
+cpi %>% 
+  add_column(unrate) %>% 
+  filter(DATE >= "1996-01-01" & DATE <= "2018-01-01") %>% 
+  mutate(DATE = lubridate::year(DATE)) %>% 
+  ggplot(aes(x = UNRATE, y = CPIAUCSL, label = DATE)) +
+  geom_point() +
+  geom_text_repel(family = "IBM Plex Sans") +
+  geom_smooth(method = "lm", se = F, color = "red") +
+  expand_limits(x = c(3, 10),
+                y = c(0.5, 3)) +
+  geom_vline(xintercept = 3) +
+  geom_hline(yintercept = 0.5) +
+  labs(x = "Unemployment rate (%)",
+       y = "Inflation rate (%)",
+       title = "U.S. Phillips curve, 1996–2018")
+
+
+
+
+```
+
+## The Phillips curve
+
+<br>
+
+```{r}
+#|echo: false
+
+
+cpi %>% 
+  add_column(unrate) %>% 
+  filter(DATE >= "2018-01-01") %>% 
+  mutate(DATE = lubridate::year(DATE)) %>% 
+  ggplot(aes(x = UNRATE, y = CPIAUCSL, label = DATE)) +
+  geom_point() +
+  geom_text_repel(family = "IBM Plex Sans") +
+  expand_limits(x = c(3, 10),
+                y = c(0.5, 3)) +
+  geom_vline(xintercept = 3) +
+  geom_hline(yintercept = 0.5) +
+  labs(x = "Unemployment rate (%)",
+       y = "Inflation rate (%)",
+       title = "U.S. Phillips curve, 2018–Present")
+
+
+
+
+```
+
+
+# The "natural" rate of unemployment
+
+
+## The "natural" rate of unemployment
+
+<br>
+
+When we studied the labor market, we defined the *natural* *rate of unemployment* as the unemployment rate at which the actual price level (*P*) is equal to the expected price level (*P<sup>e</sup>*).
+
+. . .
+
+<br>
+
+Applying back this idea with our Phillips curve equation, we have *&pi; = &pi;<sup>e</sup>*:
+
+<br>
+
+$$
+0 = (m+z) - \alpha u
+$$
+
+
+
+
+
+## The "natural" rate of unemployment
+
+<br>
+
+and the *natural* *rate of unemployment* (*u<sub>n</sub>*) is given by
+
+<br>
+
+$$
+u_n = \dfrac{(m+z)}{\alpha}
+$$
+
+. . .
+
+<br>
+
+What does this relation imply for *unemployment* and *inflation*?
