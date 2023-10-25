@@ -68,6 +68,14 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 <br>
 
+**007: Inflation**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/008-inflation/008-inflation.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/008-inflation/008-inflation.pdf)
+
+
+<br>
+
+
 ## Course Blog
 
 <br>
@@ -80,6 +88,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [10/20: How does interest impact credit?](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/laing-shortsleeve.md) | Regan Laing & Ben Shortsleeve |
 | [10/18: Rising debt continues, who’s going to pay the bills?](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/shafritz-leangphibul.md) | Justin Shafritz & Garn Leangphibul |
 | [10/13: Investors think the Fed might be done raising Interest rates](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/tevie.md) | Ryan Tevie |
 | [10/11: United Nations Economic Situation and Prospects](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/slager-kachanovsy.md) | Ethan Slager & Leo Kachanovsky |
