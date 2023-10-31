@@ -20,7 +20,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 <br>
 
 - ~~10/13: **Mini-test 1**~~
-- 10/27: **Mini-test 2**
+- ~~10/27: **Mini-test 2**~~
 - 11/10: **Midterm exam**
 
 <br>
@@ -88,6 +88,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [10/25: Why did Fitch Downgrade the United States’s Credit Rating?](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/tran-haq.md) | An Tran & Kam Haq |
 | [10/20: How does interest impact credit?](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/laing-shortsleeve.md) | Regan Laing & Ben Shortsleeve |
 | [10/18: Rising debt continues, who’s going to pay the bills?](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/shafritz-leangphibul.md) | Justin Shafritz & Garn Leangphibul |
 | [10/13: Investors think the Fed might be done raising Interest rates](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/tevie.md) | Ryan Tevie |
