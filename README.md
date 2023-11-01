@@ -88,6 +88,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [11/01: Instability in The Bond Market](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/heberlein-bouvier.md) | Max Heberlein & Jon Bouvier |
 | [10/25: Why did Fitch Downgrade the United States’s Credit Rating?](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/tran-haq.md) | An Tran & Kam Haq |
 | [10/20: How does interest impact credit?](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/laing-shortsleeve.md) | Regan Laing & Ben Shortsleeve |
 | [10/18: Rising debt continues, who’s going to pay the bills?](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/shafritz-leangphibul.md) | Justin Shafritz & Garn Leangphibul |
