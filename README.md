@@ -72,6 +72,12 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
   - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/008-inflation/008-inflation.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/008-inflation/008-inflation.pdf)
 
+<br>
+
+**008: The IS-LM-PC model: Introduction**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/009-is-lm-pc/009-is-lm-pc.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/009-is-lm-pc/009-is-lm-pc.pdf)
+
 
 <br>
 
