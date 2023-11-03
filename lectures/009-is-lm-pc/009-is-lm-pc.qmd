@@ -1,0 +1,353 @@
+---
+title: "The IS-LM-PC model: Introduction"
+subtitle: "EC 235 | Fall 2023"
+format:
+  revealjs: 
+    theme: [default, ms_custom.scss]
+    html-math-method: mathjax
+    footer: "EC 235 - Prof. Santetti"
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 3
+from: markdown+emoji
+---
+
+## Materials
+
+<br><br>
+
+**Required readings**:
+
+-   Blanchard, ch. 9.
+
+
+# Prologue
+
+## Prologue
+
+<br>
+
+The IS-LM model provided a comprehensive analysis of equilibrium in *goods* and *financial* markets, as well as the effects of *monetary* and *fiscal* policies to interest rates and aggregate income.
+
+. . .
+
+<br>
+
+Then, moving on to the *labor market* and *inflation* lectures, we were able to study how the *state of unemployment* may affect the *price level*, through the *Phillips curve*.
+
+
+<br>
+
+. . .
+
+That said, we can move on to a model where these components are put together: the IS-LM-PC model.
+
+. . .
+
+<br>
+
+But first, we need some basic (re-)definitions.
+
+# Inflation
+
+## Inflation
+
+<br>
+
+When the inflation rate is *not* stable over time, how economic agents form their *expectations* becomes a *crucial* factor in wage- and price-setting behavior.
+
+. . .
+
+<br>
+
+Recall:
+
+<br>
+
+$$
+\pi_t^e = (1-\theta)\bar{\pi} + \theta \pi_{t-1}
+$$
+
+. . .
+
+<br>
+
+
+- What is expected inflation when $\theta = 0$?
+
+- What is expected inflation when $\theta = 1$?
+
+## Inflation
+
+<br>
+
+In either case, the *natural rate of unemployment (u<sub>n</sub>)* is the unemployment rate such that actual inflation is equal to expected inflation.
+
+<br>
+
+. . .
+
+$$
+\pi - \pi_t^e = (m + z) - \alpha u_t
+$$
+
+. . .
+
+<br>
+
+$$
+0 = (m + z) - \alpha u_t
+$$
+
+. . .
+
+<br>
+
+$$
+u_n = \dfrac{(m + z)}{\alpha}
+$$
+
+
+## Inflation
+
+<br>
+
+From the previous expression, we can re-write the Phillips curve:
+
+<br>
+
+$$
+\pi_t = \pi_t^e + (m+z) - \alpha u_t
+$$
+
+. . .
+
+<br>
+
+$$
+\pi_t - \pi_t^e = -\alpha \bigg(u_t - \dfrac{(m+z)}{\alpha}\bigg)
+$$
+
+
+## Inflation
+
+<br>
+
+And since $u_n = \dfrac{(m + z)}{\alpha}$,
+
+. . .
+
+<br>
+
+$$
+\pi_t - \pi_t^e = -\alpha (u_t - u_n)
+$$
+
+. . .
+
+<br>
+
+- The above version of the Phillips curve states that, whenever actual unemployment is *below* its natural level, inflation will be *higher* than expected. 
+
+. . .
+
+
+
+- Similarly, if actual unemployment is *at its natural level*, inflation will be *equal* to its expected rate.
+
+
+# The IS relation
+
+## The IS relation
+
+
+<br>
+
+When studying the IS-LM model, we defined the equilibrium condition in the goods market as:
+
+$$
+Y = Z = C(Y_D) + I(Y, i) + G
+$$
+
+. . .
+
+<br>
+
+And now, since we have already incorporated (expected) inflation into our analysis, we may think about interest rates in *real* terms.
+
+. . .
+
+<br>
+
+We can define the *real interest rate*, *r*, as:
+
+$$
+r \approx i - \pi^e_{t+1}
+$$
+
+## The IS relation
+
+
+Again:
+
+$$
+r \approx i - \pi^e_{t+1}
+$$
+
+<br>
+
+. . .
+
+In words, the *real interest rate* is (approximately) equal to the *nominal interest rate minus expected inflation*. 
+
+. . .
+
+
+
+A few implications:
+
+- When expected inflation equals *zero*, the nominal and the real interest rates are *equal*;
+- Because expected inflation is typically *positive*, the real interest rate is typically *lower* than the nominal interest rate;
+- For a given nominal interest rate, the *higher* the expected rate of inflation, the *lower* the real interest rate.
+
+
+## The IS relation
+
+<br>
+
+That said, we may re-write the equilibrium condition in the goods market as:
+
+<br>
+
+$$
+Y = Z = C(Y_D) + I(Y, r) + G
+$$
+
+<br>
+
+$$
+Y = Z = C(Y_D) + I(Y, i - \pi^e_{t+1}) + G
+$$
+
+# The PC curve
+
+## The PC curve
+
+<br>
+
+The IS-LM model took place in a *(Y, i)* two-dimensional space.
+
+<br>
+
+. . .
+
+If we wish to incorporate the Phillips curve into the analysis, at least one of the axes must match with the IS-LM model's.
+
+. . .
+
+<br>
+
+Therefore, let us try to express the Phillips curve in terms of *inflation* (*&pi;*) and *output* (*Y*).
+
+
+## The PC curve
+
+<br>
+
+
+First, by definition, the unemployment rate (*u*) is equal to unemployment (*U*) divided by the labor force (*L*):
+
+$$
+u \equiv \dfrac{U}{L} = \dfrac{(L - N)}{L} = 1 - \dfrac{N}{L}
+$$
+
+<br>
+
+where *N* is the number of employed individuals.
+
+<br>
+
+. . .
+
+Solving for *N*:
+
+$$
+N = L(1 - u)
+$$
+
+## The PC curve
+
+<br>
+
+Still assuming an aggregate production function $Y = A \cdot N$, with $A = 1$, we may write:
+
+<br>
+
+$$
+Y = N = L(1 - u)
+$$
+
+. . .
+
+<br>
+
+And if we consider the *natural rate of unemployment*, *u<sub>n</sub>*, we may write an expression for the *natural level of output* (i.e., *potential output*), *Y<sub>n</sub>*:
+
+$$
+Y_n = N = L(1 - u_n)
+$$
+
+
+## The PC curve
+
+<br>
+
+We are now able to write an expression for the *output gap*:
+
+<br>
+
+$$
+Y - Y_n = -L(u - u_n)
+$$
+
+. . .
+
+<br>
+
+Using our latest Phillips curve (and dropping time indexes):
+
+$$
+\pi - \pi^e = -\alpha (u - u_n)
+$$
+
+. . .
+
+<br>
+
+
+$$
+\pi - \pi^e = \bigg(\dfrac{\alpha}{L}\bigg) (Y - Y_n)
+$$
+
+## The PC curve
+
+<br>
+
+And if expectations are well-anchored, expected inflation will be equal to the target set by the monetary authority (e.g., 2% in the United States):
+
+<br>
+
+$$
+\pi - \bar{\pi} = \bigg(\dfrac{\alpha}{L}\bigg) (Y - Y_n)
+$$
+
+. . .
+
+<br>
+
+And here we have an equation relating *inflation* and *output*.
+
+## The PC curve
+
+![](fig.png){fig-align="center" width="450" height="570"}
+

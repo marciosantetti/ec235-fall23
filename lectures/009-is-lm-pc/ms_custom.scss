@@ -1,0 +1,50 @@
+/*-- scss:defaults --*/
+
+$theme-solar: #f9f1e9;
+$theme-green: #0e533a;
+$theme-lightred: #ff6f69;
+$theme-select: #271acc;
+
+$body-bg: $theme-solar;
+$body-color: $theme-green;
+$link-color: $theme-lightred;
+$selection-bg: $theme-select;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;1,300&family=IBM+Plex+Serif:ital,wght@0,300;0,400;1,300&display=swap');
+
+$font-family-sans-serif: 'IBM Plex Sans', sans-serif;
+$presentation-heading-font: 'IBM Plex Serif', serif;
+$presentation-font-size-root: '30px';
+
+/*-- scss:rules --*/
+  
+.green {
+  color: $theme-green;
+  font-weight: bold;
+}
+
+.lightred {
+  color: $theme-lightred;
+  font-weight: bold;
+}
+
+.pink {
+  color: #ff084a;
+  font-weight: bold;
+}
+
+
+.darkgreen {
+  color: #153306;
+  font-weight: bold;
+}
+
+.reveal .slide a {
+  text-decoration: underline;
+}
+
+.reveal .footer {
+  color: $theme-green;
+  font-size: 0.5em !important;
+  text-align: center !important;
+}
