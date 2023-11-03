@@ -94,6 +94,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [11/03: Greece's economic recovery](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/ilagan-mitsopoulos-2.md) | Diego Ilagan & Evangelos Mitsopoulos |
 | [11/01: Instability in The Bond Market](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/heberlein-bouvier.md) | Max Heberlein & Jon Bouvier |
 | [10/27: U.S. real GDP grows 4.9% in the third quarter](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/luo-malik.md) | Shijie Luo & Charles Malik |
 | [10/25: Why did Fitch Downgrade the United States’s Credit Rating?](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/tran-haq.md) | An Tran & Kam Haq |
