@@ -21,7 +21,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 - ~~10/13: **Mini-test 1**~~
 - ~~10/27: **Mini-test 2**~~
-- 11/10: **Midterm exam**
+- ~~11/10: **Midterm exam**~~
 
 <br>
 
@@ -94,6 +94,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [11/10: Warring Oil – Energy prices within ongoing conflicts in the Middle East](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/thein-vu.md) | Vu Duc Minh & Brendan Thein |
 | [11/08: Potential for Soaring Oil Prices Amid Escalation of the Israel-Palestine Conflict](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/trinh.md) | Derrick Trinh |
 | [11/03: Greece's economic recovery](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/ilagan-mitsopoulos-2.md) | Diego Ilagan & Evangelos Mitsopoulos |
 | [11/01: Instability in The Bond Market](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/heberlein-bouvier.md) | Max Heberlein & Jon Bouvier |
