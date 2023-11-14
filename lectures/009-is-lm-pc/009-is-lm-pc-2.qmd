@@ -1,0 +1,134 @@
+---
+title: "The IS-LM-PC model: Further analysis"
+subtitle: "EC 235 | Fall 2023"
+format:
+  revealjs: 
+    theme: [default, ms_custom.scss]
+    html-math-method: mathjax
+    footer: "EC 235 - Prof. Santetti"
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 3
+from: markdown+emoji
+---
+
+## Materials
+
+<br><br>
+
+**Required readings**:
+
+-   Blanchard, ch. 9.
+
+    - Sections 9&mdash;2, 9&mdash;3, 9&mdash;4, 9&mdash;5.
+
+
+# Prologue
+
+## Prologue
+
+<br><br>
+
+After setting up the IS-LM-PC model, we will analyze a few scenarios from a *graphical* perspective:
+
+<br><br>
+
+. . .
+
+- When the economy is *overheating* (actual output is larger than potential output);
+
+- The *zero lower bound*;
+
+- Fiscal *consolidation*;
+
+- *Supply* shocks.
+
+
+# Short- and medium-run equilibria
+
+## Short- and medium-run equilibria
+
+<br>
+
+Suppose, for simplicity, a *horizontal* *LM* curve.
+
+. . .
+
+<br>
+
+Furthermore, the economy is in an *expansion*, where actual output (*Y*) is larger than potential (natural) output (*Y<sub>n</sub>*).
+
+. . .
+
+<br>
+
+What can the *monetary authority* do to control *inflation* and return the economy back to its "natural" level?
+
+## Short- and medium-run equilibria
+
+
+
+![](fig.png){fig-align="center" width="450" height="570"}
+
+
+# The zero lower bound
+
+
+## The zero lower bound
+
+<br>
+
+Now suppose that the economy is in a *recession*.
+
+<br>
+
+. . .
+
+This implies that actual output is *below* its potential level.
+
+. . .
+
+<br>
+
+What can *monetary policy* do?
+
+
+## The zero lower bound
+
+![](fig2.png){fig-align="center" width="450" height="570"}
+
+
+# Fiscal consolidation
+
+## Fiscal consolidation
+
+<br><br>
+
+We can now assume a situation where the economy is at its "natural" level, and the government wants to *reduce its budget deficit*.
+
+<br><br>
+
+. . .
+
+What will be the effects in an *IS-LM-PC* setting?
+
+## Fiscal consolidation
+
+![](fig3.png){fig-align="center" width="450" height="570"}
+
+
+# Supply shocks
+
+
+## Supply shocks
+
+<br><br><br>
+
+Lastly, let us study in detail the effects of *supply shocks* to an economy from this perspective.
+
+
+
+## Supply shocks
+
+
+![](fig4.png){fig-align="center" width="450" height="570"}
