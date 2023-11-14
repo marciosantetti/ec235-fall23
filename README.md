@@ -81,12 +81,18 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 <br>
 
+**009: The IS-LM-PC model: Further analysis**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/009-is-lm-pc/009-is-lm-pc-2.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/009-is-lm-pc/009-is-lm-pc-2.pdf)
+
 
 ## Course Blog
 
-<br>
+
 
 - [`Blog assignment description`](https://raw.githack.com/marciosantetti/ec235-fall23/main/problem-sets/blog/blog-ec235-fall23.pdf)
+
+<br>
 
 
 #### Posts
@@ -94,6 +100,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [11/15: Sharp U.S. Hiring Slowdown Signals Cooling Economy Ahead](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/abk-chen.md) | Arjun B K & Stacy Chen |
 | [11/10: Warring Oil – Energy prices within ongoing conflicts in the Middle East](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/thein-vu.md) | Vu Duc Minh & Brendan Thein |
 | [11/08: Potential for Soaring Oil Prices Amid Escalation of the Israel-Palestine Conflict](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/trinh.md) | Derrick Trinh |
 | [11/03: Greece's economic recovery](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/ilagan-mitsopoulos-2.md) | Diego Ilagan & Evangelos Mitsopoulos |
