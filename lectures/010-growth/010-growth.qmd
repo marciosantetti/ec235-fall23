@@ -1,0 +1,427 @@
+---
+title: "Economic growth: Introduction"
+subtitle: "EC 235 | Fall 2023"
+format:
+  revealjs: 
+    theme: [default, ms_custom.scss]
+    html-math-method: mathjax
+    footer: "EC 235 - Prof. Santetti"
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 3
+from: markdown+emoji
+---
+
+## Materials
+
+<br><br>
+
+**Required readings**:
+
+-   Blanchard, ch. 10.
+
+
+# Prologue
+
+## Prologue
+
+<br>
+
+So far, our lectures focued on the *short-* and *medium-run* features of the macroeconomy.
+
+. . .
+
+<br>
+
+In both time frames, economic *fluctuations* dominate the picture.
+
+. . .
+
+<br>
+
+However, when looking at the behavior of aggregate *output*/*income* over time, fluctuations become less apparent and *economic growth* dominates.
+
+. . .
+
+<br>
+
+Thus, we now turn our attention to the *long-run*, with the purpose of understanding *what determines economic growth*.
+
+# The standard of living
+
+## The standard of living
+
+<br><br>
+
+[A look at the data I](https://ourworldindata.org/grapher/national-gdp-penn-world-table?tab=chart)
+
+. . .
+
+<br><br>
+
+[A look at the data II](https://ourworldindata.org/grapher/gdp-per-capita-worldbank?tab=chart)
+
+. . .
+
+<br><br>
+
+[Some other aspects I](https://ourworldindata.org/explorers/co2)
+
+. . .
+
+<br><br>
+
+[Some other aspects II](https://ourworldindata.org/grapher/social-spending-oecd-longrun)
+
+
+# Thinking about growth
+
+## Thinking about growth
+
+<br>
+
+
+The *conventional* approach to economic growth is due to the work of [Robert M. Solow](https://en.wikipedia.org/wiki/Robert_Solow).
+
+
+. . .
+
+<br>
+
+The starting point of such approach is through an *aggregate production function*:
+
+<br>
+
+$$
+Y = F(K, N)
+$$
+
+. . .
+
+
+where *Y* is aggregate output; *K* is the capital stock; and *N*, the number of employed workers.
+
+. . .
+
+<br>
+
+What are some of the *limitations* of such modeling approach?
+
+## Thinking about growth
+
+<br>
+
+Given an aggregate production function, *how much* output (*Y*) can be produced for given quantities of the capital and labor inputs, *K* and *N*, respectively?
+
+. . .
+
+<br>
+
+The answer lies on *technology*.
+
+. . .
+
+<br>
+
+  - Countries with more advanced technology will produce more output from the same quantities of *K* and *N* than will an economy with less advanced production methods.
+  
+## Thinking about growth
+
+<br>
+
+Now, time to think about some *restrictions* we may impose on the aggregate production function.
+
+. . .
+
+<br>
+
+The first is thinking about what happens to *F(K, N)* when we, for instance, *double* both the number of workers and the amount of capital in the economy.
+
+. . .
+
+<br>
+
+We'll assume *constant returns to scale* (CRS):
+
+
+
+$$
+F(2K, 2N) = 2Y
+$$
+
+. . .
+
+More generally:
+
+$$
+F(xK, xN) = xY
+$$
+
+## Thinking about growth
+
+<br>
+
+What if we assume that *only* *one* factor of production increases?
+
+. . .
+
+<br>
+
+Even under constant returns to scale, there are *decreasing returns to each factor*.
+
+. . .
+
+<br>
+
+There are *decreasing returns to capital*:
+
+  - Given labor, increases in capital lead to *smaller and smaller increases* in output. 
+  
+. . .
+
+
+  
+There are *decreasing returns to labor*:
+
+  - Given capital, increases in labor lead to *smaller and smaller increases* in output.
+
+
+## Thinking about growth
+
+<br><br>
+
+From the aggregate production function, we can specify it in terms of the labor input, *N*:
+
+<br>
+
+$$
+\dfrac{Y}{N} = F(\dfrac{K}{N}, \dfrac{N}{N}) = F(\dfrac{K}{N}, 1)
+$$
+
+
+## Thinking about growth
+
+<br>
+
+![](fig1.png){fig-align="center" width="600" height="450"}
+
+## Thinking about growth
+
+<br>
+
+![](fig2.png){fig-align="center" width="600" height="450"}
+
+
+## Thinking about growth
+
+<br>
+
+Two key things from the previous charts:
+
+<br>
+
+. . .
+
+1. Capital accumulation *by itself* cannot sustain growth;
+
+<br>
+
+2. *Sustained* growth requires *sustained technological progress*. 
+
+
+# Interactions between output and capital
+
+
+## Interactions between output and capital
+
+<br>
+
+
+The determination of output over the long-run depends on two relations between output (*Y*) and capital (*K*):
+
+. . .
+
+<br>
+
+  - The amount of capital determines the amount of output being produced;
+  
+  - The amount of output being produced determines the amount of saving and, in
+turn, the amount of capital being accumulated over time.
+
+
+. . .
+
+<br>
+
+From the aggregate production function normalized by labor, we may *simplify* things by writing:
+
+$$
+\dfrac{Y}{N} = F\bigg(\dfrac{K}{N}, 1\bigg) = f\bigg(\dfrac{K}{N}\bigg)
+$$
+
+## Interactions between output and capital
+
+<br>
+
+
+Again:
+
+$$
+\dfrac{Y}{N} = F\bigg(\dfrac{K}{N}, 1\bigg) = f\bigg(\dfrac{K}{N}\bigg)
+$$
+
+. . .
+
+<br>
+
+This relation implies that we assume employment *N* to be *constant* over the *long-run*.
+
+. . .
+
+<br>
+
+This way, we are able to *focus* on the process of *capital accumulation* over time and its *effects* on growth.
+
+## Interactions between output and capital
+
+<br><br>
+
+If we introduce *time indexes*, we may write:
+
+<br><br>
+
+$$
+\dfrac{Y_t}{N} = f\bigg(\dfrac{K_t}{N}\bigg)
+$$
+
+
+
+## Interactions between output and capital
+
+<br>
+
+Next, we move on to how output and capital accumulation are related over time.
+
+. . .
+
+<br>
+
+We will keep assuming a closed economy, with *investment* being equal as the sum of *private* and *public* savings in equilibrium:
+
+$$
+I = S + (T-G)
+$$
+
+. . .
+
+<br>
+
+For simplicity, we will assume a balanced budget (i.e., public savings are equal to zero), so investment equals private savings:
+
+$$
+I = S
+$$
+
+## Interactions between output and capital
+
+<br>
+
+Private savings are *proportional* to aggregate income:
+
+
+
+$$
+S = sY
+$$
+
+
+
+. . .
+
+where the parameter *s* is the *saving rate* ($0 < s < 1$).
+
+. . .
+
+<br><br>
+
+Combining what we have so far, we can write:
+
+$$
+I_t = sY_t
+$$
+
+. . .
+
+<br>
+
+The above relation states that investment is *proportional* to aggregate income/output.
+
+
+## Interactions between output and capital
+
+<br>
+
+Turning to the capital stock, *K*, we will assume that it depreciates at a rate *&delta;* per year.
+
+. . .
+
+<br>
+
+Equivalently, a proportion *(1 - &delta;)* remains intact from one year to the next.
+
+. . .
+
+<br>
+
+The evolution of the capital stock is then given by:
+
+<br>
+
+
+$$
+K_{t+1} = (1 - \delta)K_t + I_t
+$$
+
+
+## Interactions between output and capital
+
+<br>
+
+Normalizing the previous relation by the number of employed workers, *N*:
+
+<br>
+
+$$
+\dfrac{K_{t+1}}{N} = (1 - \delta)\dfrac{K_t}{N} + \dfrac{I_t}{N}
+$$
+
+<br>
+
+. . .
+
+Rearranging...
+
+<br>
+
+$$
+\dfrac{K_{t+1}}{N} - \dfrac{K_t}{N} = s\dfrac{Y_t}{N} - \delta\dfrac{K_t}{N}
+$$
+
+## Interactions between output and capital
+
+<br>
+
+
+Again:
+
+<br>
+
+$$
+\dfrac{K_{t+1}}{N} - \dfrac{K_t}{N} = s\dfrac{Y_t}{N} - \delta\dfrac{K_t}{N}
+$$
+
+. . .
+
+<br><br>
+
+This relation implies that the *change in the capital stock per worker*, represented by the *difference* between the two terms on the *left*, is equal to *savings per worker*, represented by the first term on the right, minus *depreciation*, represented by the second term on the right.
