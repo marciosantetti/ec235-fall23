@@ -84,7 +84,14 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 **009: The IS-LM-PC model: Further analysis**
 
   - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/009-is-lm-pc/009-is-lm-pc-2.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/009-is-lm-pc/009-is-lm-pc-2.pdf)
+  - [`Isabella Weber on sellers' inflation I`](https://www.youtube.com/watch?v=fjoDjv1R3to)
+  - [`Isabella Weber on sellers' inflation II`](https://www.youtube.com/watch?v=H6WXKUQJ62Y&t=509s)
 
+<br>
+
+**010: Economic growth: Introduction**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/010-growth/010-growth.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/010-growth/010-growth.pdf)
 
 ## Course Blog
 
