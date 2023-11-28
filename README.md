@@ -139,3 +139,4 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 - [`Problem Set 1`](https://raw.githack.com/marciosantetti/ec235-fall23/main/problem-sets/ps1/ps1-ec235-fall23.pdf)
 - [`Problem Set 2`](https://raw.githack.com/marciosantetti/ec235-fall23/main/problem-sets/ps2/ps2-ec235-fall23.pdf)
+- [`Problem Set 3`](https://raw.githack.com/marciosantetti/ec235-fall23/main/problem-sets/ps3/ps3-ec235-fall23.pdf)
