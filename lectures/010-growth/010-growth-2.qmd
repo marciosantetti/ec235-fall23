@@ -1,0 +1,165 @@
+---
+title: "Economic growth: Further thoughts"
+subtitle: "EC 235 | Fall 2023"
+format:
+  revealjs: 
+    theme: [default, ms_custom.scss]
+    html-math-method: mathjax
+    footer: "EC 235 - Prof. Santetti"
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 3
+from: markdown+emoji
+---
+
+## Materials
+
+<br><br>
+
+**Required readings**:
+
+-   Blanchard, ch. 11.
+
+
+# Prologue
+
+## Prologue
+
+<br>
+
+Last time, we derived two relations involving aggregate output per worker (*Y/N*) and an economy's capital stock per worker (*K/N*):
+
+<br>
+
+<br>
+
+1. $\dfrac{Y}{N} = F\bigg(\dfrac{K}{N}, 1\bigg) = f\bigg(\dfrac{K}{N}\bigg)$
+
+. . .
+
+<br>
+
+2. $\dfrac{K_{t+1}}{N} - \dfrac{K_t}{N} = s\dfrac{Y_t}{N} - \delta\dfrac{K_t}{N}$
+
+
+## Prologue
+
+<br>
+
+$$
+\dfrac{Y}{N} = F\bigg(\dfrac{K}{N}, 1\bigg) = f\bigg(\dfrac{K}{N}\bigg)
+$$
+
+<br>
+
+The first relation defines the *long-run aggregate production function* only depending on the economy's *capital intensity* (or *capital per worker*).
+
+## Prologue
+
+<br>
+
+$$
+\dfrac{K_{t+1}}{N} - \dfrac{K_t}{N} = s\dfrac{Y_t}{N} - \delta\dfrac{K_t}{N}
+$$
+
+<br>
+
+The second relation gives the *law of motion of capital*: capital per worker depends on two factors:
+
+. . .
+
+<br>
+
+1. Investment per worker: since *I = sY<sub>t</sub>* and given the saving rate *s*, output per worker determines the amount of *saving* per worker and thus the *investment* per worker;
+
+. . .
+
+
+
+2. Depreciation per worker: the capital stock per worker determines the amount of *depreciation* per worker.
+
+# Capital and output dynamics
+
+## Capital and output dynamics
+
+<br>
+
+Given the two relations, we can further understand the dynamics of capital and output over time.
+
+. . .
+
+<br><br>
+
+The *easiest* way to do so is through a graph.
+
+
+## Capital and output dynamics
+
+<br>
+
+![](fig3.png){fig-align="center" width="700" height="480"}
+
+
+## Capital and output dynamics
+
+<br>
+
+The state in which output per worker and capital per worker are no longer changing is called the *steady state* of the economy.
+
+. . .
+
+<br>
+
+In mathematical terms, the steady state is reached when there is no change in the capital stock per worker:
+
+$$
+\dfrac{K_{t+1}}{N} - \dfrac{K_t}{N} = s\dfrac{Y_t}{N} - \delta\dfrac{K_t}{N} \implies 0 = s\dfrac{Y_t}{N} - \delta\dfrac{K_t}{N}
+$$
+
+. . .
+
+<br>
+
+$$
+s\dfrac{Y^*_t}{N} = \delta\dfrac{K^*_t}{N}
+$$
+
+## Capital and output dynamics
+
+<br>
+
+As $\dfrac{Y}{N} =  f\bigg(\dfrac{K}{N}\bigg)$, we can write the steady state as:
+
+<br>
+
+$$
+sf\bigg(\dfrac{K^*}{N}\bigg) = \delta\dfrac{K^*}{N}
+$$
+
+# Sources of growth
+
+
+## Sources of growth
+
+<br>
+
+Now that we are aware that there exists a possible *steady state* of economic growth, what are the *sources* of economic growth over the long-run?
+
+<br>
+
+A few candidates:
+
+1. The capital intensity;
+
+2. The savings propensity *s*;
+
+3. Consumption ("golden rule");
+
+4. Technological progress.
+
+
+. . .
+
+<br>
+
+Let us think about each of them.
