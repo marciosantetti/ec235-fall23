@@ -22,6 +22,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 - ~~10/13: **Mini-test 1**~~
 - ~~10/27: **Mini-test 2**~~
 - ~~11/10: **Midterm exam**~~
+- 12/06: **Mini-test 3**
 
 <br>
 
@@ -93,6 +94,16 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
   - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/010-growth/010-growth.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/010-growth/010-growth.pdf)
 
+<br>
+
+
+**011: Economic growth: Further thoughts**
+
+  - Slides: [`html`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/010-growth/010-growth-2.html) | [`pdf`](https://raw.githack.com/marciosantetti/ec235-fall23/main/lectures/010-growth/010-growth-2.pdf)
+
+
+<br>
+
 ## Course Blog
 
 
@@ -107,6 +118,9 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [11/29: Inflation During the Holiday Season](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/strauss.md) | Jack Strauss |
+| [11/22: The Market Thinks the Fed is Going to Start Cutting Rates Aggressively](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/giresi-appel.md) | Christian Giresi & Calder Appel |
+| [11/17: Job Growth Slows in October and the Threat of Recession Becomes Real](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/mahn-moreta-2.md) | Charlotte Mahn & Randy Moreta |
 | [11/15: Sharp U.S. Hiring Slowdown Signals Cooling Economy Ahead](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/abk-chen.md) | Arjun B K & Stacy Chen |
 | [11/10: Warring Oil – Energy prices within ongoing conflicts in the Middle East](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/thein-vu.md) | Vu Duc Minh & Brendan Thein |
 | [11/08: Potential for Soaring Oil Prices Amid Escalation of the Israel-Palestine Conflict](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/trinh.md) | Derrick Trinh |
