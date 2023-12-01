@@ -118,6 +118,7 @@ Welcome to EC 235: **Macroeconomic Theory**!<br>
 
 | Title | Author(s) |
 |-------|:---------:|
+| [12/01: The Implications of the UAW Strike on the Auto Market](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/freese-despins-2.md) | Marah Frese-Despins |
 | [11/29: Inflation During the Holiday Season](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/strauss.md) | Jack Strauss |
 | [11/22: The Market Thinks the Fed is Going to Start Cutting Rates Aggressively](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/001/giresi-appel.md) | Christian Giresi & Calder Appel |
 | [11/17: Job Growth Slows in October and the Threat of Recession Becomes Real](https://github.com/marciosantetti/ec235-fall23/blob/main/blog/posts/002/mahn-moreta-2.md) | Charlotte Mahn & Randy Moreta |
